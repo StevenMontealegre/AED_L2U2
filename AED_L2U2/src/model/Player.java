@@ -14,7 +14,6 @@ public class Player {
 		siguiente = null;
 	}
 
-
 	public String getNickname() {
 		return nickname;
 	}

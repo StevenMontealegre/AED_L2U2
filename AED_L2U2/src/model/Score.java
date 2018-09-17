@@ -1,7 +1,7 @@
 package model;
 
 public class Score {
-	
+
 	private Integer value;
 	private Player player;
 	private Score next;
@@ -47,4 +47,9 @@ public class Score {
 		this.key = key;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "(" + player.getNickname() + ", " + value + ")";
+	}
 }
