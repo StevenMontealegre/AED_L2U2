@@ -4,9 +4,14 @@ public class LinkedList {
 
 	private Score first;
 
+	public LinkedList() {
+
+		first = null;
+	}
+
 	public LinkedList(Score first) {
-		super();
 		this.first = first;
+
 	}
 
 	public boolean isEmpty() {

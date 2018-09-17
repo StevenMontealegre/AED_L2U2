@@ -5,12 +5,14 @@ public class Score {
 	private Integer value;
 	private Player player;
 	private Score next;
+	private Integer key;
 
 	public Score(Integer value, Player player) {
 		super();
 		this.value = value;
 		this.player = player;
 		setNext(null);
+		setKey(null);
 	}
 
 	public Integer getValue() {
@@ -35,6 +37,14 @@ public class Score {
 
 	public void setNext(Score next) {
 		this.next = next;
+	}
+
+	public Integer getKey() {
+		return key;
+	}
+
+	public void setKey(Integer key) {
+		this.key = key;
 	}
 
 }

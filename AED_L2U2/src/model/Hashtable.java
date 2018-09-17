@@ -19,17 +19,28 @@ public class Hashtable {
 
 	public void insert(Score s) {
 		Integer value = s.getValue();
-		LinkedList l = new LinkedList(s);
-		if (l.isEmpty()) {
-			table[hash(value)] = s;
+		Integer hash = hash(value);
+		LinkedList l = new LinkedList();
+		if (table[hash] == null) {
+			table[hash] = s;
+			s.setKey(hash);
 		} else {
 			l.addElement(s);
+			s.setKey(hash);
 		}
 
 	}
 
-	public Player rechieve(Integer score) {
-		return null;
+	public Score rechieve(Score s) {
+		Integer key = s.getKey();
+		Score haveFound = null;
+		if (table[key].getNext() != null) {
+			LinkedList l = new LinkedList(table[key]);
+			haveFound = l.retrieve(s.getValue());
+		} else {
+			haveFound = table[key];
+		}
+		return haveFound;
 	}
 
 	public void delete(Integer score) {
