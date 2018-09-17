@@ -17,7 +17,14 @@ public class Hashtable {
 		return key;
 	}
 
-	public void insert(Player p) {
+	public void insert(Score s) {
+		Integer value = s.getValue();
+		LinkedList l = new LinkedList(s);
+		if (l.isEmpty()) {
+			table[hash(value)] = s;
+		} else {
+			l.addElement(s);
+		}
 
 	}
 
