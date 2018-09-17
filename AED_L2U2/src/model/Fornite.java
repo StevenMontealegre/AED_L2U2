@@ -19,7 +19,7 @@ public class Fornite {
 
 	public void newGame(Player p) {
 		int sco = (int) (Math.random() * 1500) + 1;
-		Score s = new Score(500, p);
+		Score s = new Score(sco, p);
 		hashTable.hash(s.getValue());
 		hashTable.insert(s);
 
