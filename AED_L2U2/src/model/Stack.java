@@ -2,8 +2,13 @@ package model;
 
 import java.util.ArrayList;
 
+<<<<<<< HEAD
 public class Stack{
 	
+=======
+public class Stack<T> {
+	//Prueba
+>>>>>>> branch 'master' of https://github.com/StevenMontealegre/AED_L2U2
 	
 	private  ArrayList<Weapon> stack;
 

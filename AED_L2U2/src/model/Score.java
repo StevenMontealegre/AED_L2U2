@@ -1,16 +1,16 @@
 package model;
 
 public class Score {
-	
+
 	private Integer value;
 	private Player player;
 	private Score next;
 	private Integer key;
 
-	public Score(Integer value, Player player) {
+	public Score(Integer value) {
 		super();
 		this.value = value;
-		this.player = player;
+		player = null;
 		setNext(null);
 		setKey(null);
 	}
@@ -47,4 +47,9 @@ public class Score {
 		this.key = key;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "(" + player.getNickname() + ", " + value + ")";
+	}
 }
