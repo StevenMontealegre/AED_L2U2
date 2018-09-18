@@ -1,14 +1,11 @@
 package model;
 
-<<<<<<< HEAD
 import java.util.ArrayList;
-=======
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
->>>>>>> branch 'master' of https://github.com/StevenMontealegre/AED_L2U2
 
 public class Fornite {
 
@@ -16,8 +13,8 @@ public class Fornite {
 	private Hashtable hashTable;
 
 	public Fornite() {
-<<<<<<< HEAD
-	
+		hashTable = new Hashtable();
+
 	}
 	
 	
@@ -37,6 +34,8 @@ public class Fornite {
 	
 	public String[] showWeaponsNames()
 	{
+		stack = new Stack<>();
+
 		String[] names = new String[stack.size()];
 		ArrayList<Weapon> s = stack.getStack();
 		for(int i = 0; i<s.size();i++)
@@ -47,19 +46,10 @@ public class Fornite {
 				
 		}
 		return names;
+
+	}
+
 	
-=======
-		stack = new Stack<>();
-		hashTable = new Hashtable();
-
->>>>>>> branch 'master' of https://github.com/StevenMontealegre/AED_L2U2
-	}
-
-	public void createWeaponStack() {
-		stack = new Stack<Weapon>();
-		Weapon axe = new Weapon(0, "axe");
-
-	}
 
 	public void newGame() {
 		File archivo = null;
