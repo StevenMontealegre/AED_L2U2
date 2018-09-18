@@ -1,5 +1,11 @@
 package model;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
 public class Fornite {
 
 	private Stack stack;
@@ -17,15 +23,52 @@ public class Fornite {
 
 	}
 
-	public void newGame(Player p) {
-		int sco = (int) (Math.random() * 1500) + 1;
-		Score s = new Score(sco, p);
-		hashTable.hash(s.getValue());
-		hashTable.insert(s);
+	public void newGame() {
+		File archivo = null;
+		FileReader fr = null;
+		BufferedReader br = null;
+
+		try {
+			archivo = new File("files/Users_Database.txt");
+			fr = new FileReader(archivo);
+			br = new BufferedReader(fr);
+			String linea;
+
+			while ((linea = br.readLine()) != null) {
+
+				String[] data = linea.split(",");
+				String player = data[0];
+				String sc = data[1];
+				Integer score = Integer.parseInt(sc);
+				Score s = new Score(score);
+				Player p = new Player(player);
+				s.setPlayer(p);
+				hashTable.hash(score);
+				hashTable.insert(s);
+
+			}
+
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			try {
+				if (null != fr) {
+					fr.close();
+				}
+			} catch (Exception e2) {
+				e2.printStackTrace();
+			}
+		}
 
 	}
 
 	public Score findingPlayer(Score s) {
-		return hashTable.rechieve(s);
+		Integer value = s.getValue();
+		int key = hashTable.hash(s.getValue());
+		return hashTable.rechieve(key, value);
 	}
 }

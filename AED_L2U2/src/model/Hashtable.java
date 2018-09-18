@@ -39,12 +39,11 @@ public class Hashtable {
 
 	}
 
-	public Score rechieve(Score s) {
-		Integer key = s.getKey();
+	public Score rechieve(Integer key, Integer value) {
 		Score haveFound = null;
 		if (table[key].getNext() != null) {
 			LinkedList l = new LinkedList(table[key]);
-			haveFound = l.retrieve(s.getValue());
+			haveFound = l.retrieve(value);
 		} else {
 			haveFound = table[key];
 		}

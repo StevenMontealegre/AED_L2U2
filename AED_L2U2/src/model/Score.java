@@ -7,10 +7,10 @@ public class Score {
 	private Score next;
 	private Integer key;
 
-	public Score(Integer value, Player player) {
+	public Score(Integer value) {
 		super();
 		this.value = value;
-		this.player = player;
+		player = null;
 		setNext(null);
 		setKey(null);
 	}

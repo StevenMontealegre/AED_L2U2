@@ -1,0 +1,10 @@
+Destructor,230
+Killer,150
+Constantine,250
+Mercenary,470
+Soldier,150
+Gladiator,543
+Fighter,656
+Allison,451
+Jack,998
+Punisher,1230

@@ -2,15 +2,12 @@ package model;
 
 public class Player {
 
-	String nickname, ip;
-	int life;
+	String nickname;
 	Player siguiente;
 
-	public Player(String nickname, String ip, int life) {
+	public Player(String nickname) {
 		super();
 		this.nickname = nickname;
-		this.ip = ip;
-		this.life = life;
 		siguiente = null;
 	}
 
@@ -20,22 +17,6 @@ public class Player {
 
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
-	}
-
-	public String getIp() {
-		return ip;
-	}
-
-	public void setIp(String ip) {
-		this.ip = ip;
-	}
-
-	public int getLife() {
-		return life;
-	}
-
-	public void setLife(int life) {
-		this.life = life;
 	}
 
 	public Player getSiguiente() {
