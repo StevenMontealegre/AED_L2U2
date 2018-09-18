@@ -107,7 +107,17 @@ public class Main extends Application {
 		mainLayout.setCenter(chargingView);
 	}
 	
+	public static String getNextWeapon()
+	{
+		String urlImage = fortnite.getNextWeapon();
+		return urlImage;
+	}
 
+	
+	public static void useWeapon()
+	{
+		fortnite.useWeapon();
+	}
 	public static void main(String[] args) {
 		launch(args);
 		Main m = new Main();

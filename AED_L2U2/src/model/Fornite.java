@@ -7,9 +7,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Fornite {
+public class Fornite<T> {
 
 	private Stack stack;
+	private Queue weaponsQueue;
 	private Hashtable hashTable;
 
 	public Fornite() {
@@ -17,9 +18,21 @@ public class Fornite {
 
 	}
 	
+	public String getNextWeapon()
+	{
+		String urlImage = (String) weaponsQueue.dequeue();
+		return urlImage;
+	}
+	
+	
+	public void useWeapon()
+	{
+		stack.top().useWeapon();
+	}
 	
 	public void createWeaponStack()
 	{
+		getWeapons();
 		stack = new Stack();
 		System.out.println("Stack to create");
 		int a = stack.size();
@@ -42,13 +55,51 @@ public class Fornite {
 		{
 			
 			names[i] = s.get(i).getName();
-			System.out.println(names[i]);
-				
+			System.out.println(names[i]);	
 		}
 		return names;
 
 	}
 
+	
+	
+	
+	public void getWeapons()
+	{
+		
+		weaponsQueue = new Queue<String>();
+	
+		File archivo = null;
+		FileReader fr = null;
+		BufferedReader br = null;
+
+		try {
+			archivo = new File("files/Weapons.txt");
+			fr = new FileReader(archivo);
+			br = new BufferedReader(fr);
+			String linea;
+
+			while ((linea = br.readLine()) != null) {
+
+				weaponsQueue.enqueue(linea);
+				System.out.println(linea);
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			try {
+				if (null != fr) {
+					fr.close();
+				}
+			} catch (Exception e2) {
+				e2.printStackTrace();
+			}
+		}
+	}
 	
 
 	public void newGame() {

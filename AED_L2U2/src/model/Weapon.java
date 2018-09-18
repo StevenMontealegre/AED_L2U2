@@ -69,6 +69,7 @@ public class Weapon {
 		{
 			availibility = true;
 			state --;
+			System.out.println(state);
 		}
 		else 
 		{

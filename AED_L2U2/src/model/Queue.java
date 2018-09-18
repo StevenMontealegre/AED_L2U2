@@ -13,12 +13,17 @@ public class Queue<T> {
 	
 	public T dequeue()
 	{
-		T last = queue.get(queue.size()-1);
+		System.out.println("size"+size());
+		T last = queue.get(size()-1);
+		queue.remove(size()-1);
+		System.out.println("size"+size());
+
 		return last;
 	}
 	
 	public void enqueue(T element)
 	{
+		
 		queue.add(0, element);
 	}
 	

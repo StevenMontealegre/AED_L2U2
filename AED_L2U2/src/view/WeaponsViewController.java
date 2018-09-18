@@ -55,9 +55,11 @@ public class WeaponsViewController implements Initializable   {
 	@FXML
 	private void getNextWeapon()
 	{
-		System.out.println("jaaja");
-		Image i = new Image("1.png");
-		weaponImage.setImage(i);
+		
+		String urlImage = main.getNextWeapon();
+		//System.out.println("HOLA");
+		Image i = new Image(urlImage);
+		image.setImage(i);
 	}
 
 	
@@ -65,18 +67,22 @@ public class WeaponsViewController implements Initializable   {
 	@FXML
 	private void useWeapon()
 	{
-		
+		main.useWeapon();
 	}
 	
+	
+	
+	//AGREGA NOMBRES A LA VIEWLIST
 	@FXML
 	private void addElement()
 	{
-		System.out.println("casu");
+		
+		useWeapon();
+	
 		ObservableList names = FXCollections.observableArrayList();
 	
 		String[] n = main.showWeaponsNames();
-		System.out.println(n[0]);
-		
+
 		for (int i = 0; i<n.length;i++)
 		{
 			names.add(n[i]);
@@ -91,7 +97,6 @@ public class WeaponsViewController implements Initializable   {
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 		// TODO Auto-generated method stub
-		System.out.println("casu");
 		//listV.setItems(weaponList);
 	}
 }

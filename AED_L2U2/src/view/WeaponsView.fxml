@@ -88,7 +88,7 @@
                         </AnchorPane>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFE4B5;" GridPane.rowIndex="1">
                            <children>
-                              <Button fx:id="nextBut" layoutX="398.0" layoutY="50.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="202.0" style="-fx-background-color: CD853F;" text="Next Weapon" textFill="#e8e5e5">
+                              <Button fx:id="nextBut" layoutX="398.0" layoutY="50.0" mnemonicParsing="false" onAction="#getNextWeapon" prefHeight="52.0" prefWidth="202.0" style="-fx-background-color: CD853F;" text="Next Weapon" textFill="#e8e5e5">
                                  <font>
                                     <Font name="System Bold" size="18.0" />
                                  </font>
