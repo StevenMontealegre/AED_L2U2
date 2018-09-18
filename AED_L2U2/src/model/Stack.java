@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 
 public class Stack<T> {
-	
+	//Prueba
 	
 	private  ArrayList<T> stack;
 
