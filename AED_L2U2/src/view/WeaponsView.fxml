@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #4169E1;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.WeaponsViewController">
+   <children>
+      <SplitPane dividerPositions="0.3366733466933868" prefHeight="550.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="417.0" style="-fx-background-color: #4169E1;">
+               <children>
+                  <ListView fx:id="listV" layoutX="36.0" layoutY="119.0" prefHeight="598.0" prefWidth="210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="864.0" style="-fx-background-color: #4169E1;">
+               <children>
+                  <GridPane prefHeight="598.4" prefWidth="496.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #0000CD;">
+                           <children>
+                              <GridPane layoutX="38.0" layoutY="38.0" prefHeight="91.0" prefWidth="292.0">
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="166.4000244140625" minWidth="10.0" prefWidth="153.5999755859375" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="88.79998779296875" minWidth="10.0" prefWidth="46.4000244140625" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                                 <children>
+                                    <Label text="Capacity" textFill="#f8f4f4" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Nirmala UI Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="colorTxt" prefHeight="26.0" prefWidth="108.0" GridPane.columnIndex="1" />
+                                    <TextField fx:id="capacityTxt" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <TextField fx:id="leftTxt" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <Label text="Color" textFill="#f8f4f4">
+                                       <font>
+                                          <Font name="Nirmala UI Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="Capacity Left" textFill="#f8f4f4" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Nirmala UI Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </GridPane>
+                              <ImageView fx:id="weaponImage" fitHeight="224.0" fitWidth="300.0" layoutX="330.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                                 <image>
+                                    <Image url="@../../Images/1Green.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="useBut" layoutX="72.0" layoutY="186.0" mnemonicParsing="false" onAction="#addElement" prefHeight="59.0" prefWidth="224.0" style="-fx-background-color: #FF8C00;" text="Use Weapon">
+                                 <font>
+                                    <Font name="Segoe Print" size="24.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFE4B5;" GridPane.rowIndex="1">
+                           <children>
+                              <Button fx:id="nextBut" layoutX="398.0" layoutY="50.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="202.0" style="-fx-background-color: CD853F;" text="Next Weapon" textFill="#e8e5e5">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <InnerShadow />
+                                 </effect>
+                              </Button>
+                              <Button fx:id="catchBut" layoutX="398.0" layoutY="168.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="202.0" style="-fx-background-color: CD853F;" text="Catch Weapon" textFill="#e8e5e5">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <effect>
+                                    <InnerShadow />
+                                 </effect>
+                              </Button>
+                              <ImageView fx:id="image" fitHeight="252.0" fitWidth="350.0" layoutX="26.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../Images/8Green.jpg" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

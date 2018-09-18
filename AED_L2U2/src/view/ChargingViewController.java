@@ -3,18 +3,23 @@ package view;
 import java.io.IOException;
 
 import javafx.fxml.FXML;
-import javafx.scene.image.Image;
+import javafx.scene.control.Button;
+import javafx.scene.layout.BorderPane;
 
 public class ChargingViewController {
+
 	
 	private Main main;
-	@FXML
-	private Image chargingImage;
+	
+	@FXML 
+	private Button continueBut;
+	
 	
 	@FXML
-	private void continueNext() throws IOException
+	private void continueMain() throws IOException
 	{
-		main.showWeaponsView();
+		System.out.println("Drag");
+		main.showMain2();
+		main.showMainMenu();
 	}
-
 }

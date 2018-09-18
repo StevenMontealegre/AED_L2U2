@@ -2,30 +2,45 @@ package model;
 
 import java.util.ArrayList;
 
-public class Stack<T> {
+public class Stack{
 	
 	
-	private  ArrayList<T> stack;
+	private  ArrayList<Weapon> stack;
 
 	public Stack( ) {
-		this.stack = stack;
+		stack = new ArrayList<Weapon>();
+		Weapon w = new Weapon("Axe", "Axe");
+
+		Weapon q = new Weapon("Lop", "Gray");
+		push( w);
+		push( q);
 	}
 	
-	public void push( T element)
+	
+	public int size()
+	{
+		return stack.size();
+	}
+	public void push( Weapon element)
 	{
 		stack.add(0, element);
 	}
 	
-	public T top()
+	public Weapon top()
 	{
 		return stack.get(0);
 	}
 	
-	public T pop()
+	public Weapon pop()
 	{
-		T top = stack.get(0);
+		Weapon top = stack.get(0);
 		stack.remove(0);
 		return top;
+	}
+	
+	public ArrayList<Weapon> getStack()
+	{
+		return stack;
 	}
 	
 	//We do not need the isEmpty() method because we know that the player at least always have an ax, so the stack will never be empty 

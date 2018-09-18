@@ -1,26 +1,36 @@
 package model;
 
+import javafx.beans.property.SimpleStringProperty;
+
 public class Weapon {
 
 	public final static int GRAY = 0;
 	public final static int GREEN = 1;
 	public final static int BLUE = 2;
 	public final static int PURPLE = 3;
-	public final static int GOLD = 4;
+	public final static int ORANGE = 4;
+	public final static int GOLD = 5;
 	
 	
 
 	private int type;
 	private int color;
 	private int state;
+	private String name;
 	
 	
-	public Weapon( int type, String col)
+	public Weapon( String name, String col)
 	{
-		this.type = type;
+	
 		this.color = classifyColor(col);
 		this.state = color + 2;
+		this.name = name;
 		
+	}
+	
+	public String getName()
+	{
+		return name;
 	}
 	
 	public int classifyColor(String col)
