@@ -38,6 +38,8 @@ public class Stack<T> {
 		return stack;
 	}
 	
+	
+	
 	//We do not need the isEmpty() method because we know that the player at least always have an ax, so the stack will never be empty 
 	
 

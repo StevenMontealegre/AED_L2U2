@@ -69,10 +69,7 @@ public class Fornite<T> {
 		return names;
 
 	}
-<<<<<<< HEAD
-	//Create a new Score using a text file. 
-=======
-	
+
 	
 	public String catchWeapon()
 	{
@@ -118,7 +115,6 @@ public class Fornite<T> {
 		}
 	}
 	
->>>>>>> refs/remotes/origin/master
 
 	public void newGame() {
 		File archivo = null;

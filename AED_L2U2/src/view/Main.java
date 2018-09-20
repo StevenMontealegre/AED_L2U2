@@ -65,7 +65,7 @@ public class Main extends Application {
 	public static void showHashTableView() throws IOException
 	{
 		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(Main.class.getResource("HashTableView.fxml"));
+		loader.setLocation(Main.class.getResource("HashTableView2.fxml"));
 		AnchorPane menu = loader.load();
 		mainLayout.setCenter(menu);
 	}
