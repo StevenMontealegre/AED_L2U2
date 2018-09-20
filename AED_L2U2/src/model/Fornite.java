@@ -12,83 +12,64 @@ public class Fornite<T> {
 	private Stack stack;
 	private Queue<String> weaponsQueue;
 	private Hashtable hashTable;
+	private Ping ping;
 
 	public Fornite() {
 		hashTable = new Hashtable();
+		ping = new Ping();
 
 	}
-	
-	public String getNextWeapon(int q)
-	{
+
+	public String getNextWeapon(int q) {
 		weaponsQueue.dequeue();
 		String urlImage = (String) weaponsQueue.last();
-		if(q == 1)
-		{
+		if (q == 1) {
 			weaponsQueue.enqueue(urlImage);
 		}
 		return urlImage;
 	}
-	
-	
 
-	
-	public void createWeaponStack()
-	{
+	public void createWeaponStack() {
 		getWeapons();
 		stack = new Stack();
 		int a = stack.size();
 		stack.push(new Weapon("ax.png"));
 	}
-	
-	
-	public String[] useWeapon()
-	{
+
+	public String[] useWeapon() {
 		stack.top().useWeapon();
-		if( stack.top().getState()== 0 || stack.top().getState() <0)
-		{
+		if (stack.top().getState() == 0 || stack.top().getState() < 0) {
 			stack.pop();
 		}
-		
+
 		String[] data = new String[4];
 		data[0] = stack.top().getName();
 		data[1] = stack.top().getColor();
-		data[2] = stack.top().getState() +"";
+		data[2] = stack.top().getState() + "";
 		return data;
 	}
-	
-		
-	public String[] showWeaponsNames()
-	{
+
+	public String[] showWeaponsNames() {
 		String[] names = new String[stack.size()];
 		ArrayList<Weapon> s = stack.getStack();
-		for(int i = 0; i<s.size();i++)
-		{
-			
+		for (int i = 0; i < s.size(); i++) {
+
 			names[i] = s.get(i).getStackName();
 		}
 		return names;
 
 	}
-<<<<<<< HEAD
-	//Create a new Score using a text file. 
-=======
-	
-	
-	public String catchWeapon()
-	{
+
+	public String catchWeapon() {
 		String weapon = weaponsQueue.dequeue();
 		stack.push(new Weapon(weapon));
 		return weapon;
 	}
 
-	
-	
-	
-	public void getWeapons()
-	{
-		
+	public void getWeapons() {
+
 		weaponsQueue = new Queue<String>();
-	
+
 		File archivo = null;
 		FileReader fr = null;
 		BufferedReader br = null;
@@ -117,8 +98,6 @@ public class Fornite<T> {
 			}
 		}
 	}
-	
->>>>>>> refs/remotes/origin/master
 
 	public void newGame() {
 		File archivo = null;
@@ -136,9 +115,11 @@ public class Fornite<T> {
 				String[] data = linea.split(",");
 				String player = data[0];
 				String sc = data[1];
+				String region = data[2];
 				Integer score = Integer.parseInt(sc);
 				Score s = new Score(score);
-				Player p = new Player(player);
+				Player p = new Player(player, region);
+				ping.connect(ping.giveIpForRegion(region));
 				s.setPlayer(p);
 				hashTable.hash(score);
 				hashTable.insert(s);
@@ -149,8 +130,7 @@ public class Fornite<T> {
 			System.out.println("File not found");
 		} catch (IOException e) {
 			System.out.println("Reading exception");
-		}
-		finally {
+		} finally {
 			try {
 				if (null != fr) {
 					fr.close();
@@ -161,8 +141,8 @@ public class Fornite<T> {
 		}
 
 	}
-	
-	//look for a Score entered by parameter
+
+	// look for a Score entered by parameter
 
 	public Score findingPlayer(Score s) {
 

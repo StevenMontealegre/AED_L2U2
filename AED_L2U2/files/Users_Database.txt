@@ -1,740 +1,740 @@
-Destructor,230
-Killer,150
-Constantine,250
-Mercenary,470
-Soldier,150
-Gladiator,543
-Fighter,656
-Allison,451
-Jack,998
-Punisher,1230
-Aspect,158
-Bender,1412
-Big Papa,378
-Bowser,16
-Bruise,607
-Cannon,1691
-Clink,1671
-Cobra,740
-Colt,1799
-Crank,1624
-Creep,1884
-Daemon,56
-Decay,1328
-Diablo,1500
-Doom,1558
-Dracula,576
-Dragon,1424
-Fender,423
-Fester,234
-Fisheye,71
-Flack,183
-Gargoyle,1748
-Grave,1078
-Gunner,1851
-Hash,1765
-Hashtag,1391
-Indominus,1075
-Ironclad,632
-Killer,1513
-Knuckles,1476
-Steel,1175
-Tito,1055
-Titanium,1107
-Iron-Cut,149
-Steel Forge,135
-Upsurge,179
-Breaker,299
-Subversion,1576
-Loch,617
-Rex,1377
-Balrog,619
-Basilisk,459
-Cerberus,1959
-Charybdis,1577
-Cyclops,1943
-Ballistic,5
-Fury,1535
-Wrath,909
-Rage,1149
-Frenzy,698
-V,792
-Terminator,1285
-Siddhartha,887
-Thor,1018
-Khan,1280
-Leonidas,1244
-Hannibal,942
-Agrippa,1270
-Bleed,272
-Nail,1306
-Fist,1896
-Tooth,1248
-K-9,1153
-Kneecap,1167
-Soleus,258
-Blood,47
-Wracker,1095
-Wrecker,1721
-Clencher,1240
-Masher,972
-Crusher,971
-Slammer,1058
-Thrasher,641
-Torpedo,748
-Cannon,1751
-Mortar,730
-Siege,1385
-Bullet,1658
-Aero,1451
-Albatross,1356
-Arsenal,1366
-Hornet,863
-Demolition,316
-Chainsaw,351
-Wrench,1419
-Terror,209
-Freak,1820
-Axe,1691
-Axe-man,874
-Executioner,517
-Hollowman,437
-Garrot,1254
-Abyss,1844
-Chasm,1827
-Ghoul,1678
-Mace,1499
-Battleaxe,589
-Billhook,1973
-Caltrop,1200
-Longbow,1381
-Crossbow,1115
-Pike,1611
-Poleaxe,1122
-Quarterstaff,733
-War Hammer,1373
-Spear,1534
-Katana,1137
-Saber,158
-Broadsword,1241
-Claymore,814
-Grizzly,1324
-Snake,1905
-Vulture,1357
-Falcon,427
-Ram,651
-Boar,170
-Tusk,934
-Amazon,1565
-Anomoly,1439
-Banshee,1822
-Belladonna,303
-Beretta,1216
-Black Beauty,1076
-Calypso,1679
-Carbon,17
-Cascade,415
-Colada,1828
-Cosma,982
-Cougar,601
-Countess,1067
-Enchantress,1909
-Enigma,1068
-Femme Fatale,1496
-Firecracker,1977
-Geisha,1698
-Goddess,1365
-Half Pint,1108
-Harlem,278
-Heroin,1000
-Infinity,1450
-Insomnia,1467
-Ivy,487
-Legacy,903
-Lithium,1025
-Lolita,743
-Lotus,1025
-Mademoiselle,296
-Kahina,74
-Dihya,445
-Running Eagle,1409
-Colestah,157
-Calamity Jane,1176
-Pearl Heart,480
-Belle Starr,154
-Hua Mulan,1043
-Boudica,1147
-Medb,275
-Madam,1449
-Duchess,5
-Fate,1798
-Illusion,539
-Delusion,1638
-Deception,1291
-Myth,930
-Daydream,1538
-Night Terror,969
-Figment,671
-Virtual,1662
-Chicanery,568
-Trick,471
-Vile,528
-Horror,1745
-Dismay,1588
-Phobia,296
-Fright,927
-Panic,302
-Agony,329
-Inferno,565
-Blaze,263
-Crucible,1859
-Haunter,1235
-Bane,1171
-Camden,1322
-Detroit,1566
-McKinley,289
-Fiend,695
-Goblin,1862
-Oracle,203
-Soul,908
-Revenant,309
-Poltergeist,470
-Zombie,1982
-Armor,1669
-Benelli,1481
-Remington,1620
-Aeon,1386
-Kiddo,926
-Buffy,625
-Coffy,1693
-Eowyn,1645
-Croft,718
-Leeloo,1381
-Mathilda,1661
-Padme,120
-Ramona,1656
-Silk Spectre,1572
-Helium,1674
-Beryllium,782
-Neon,1029
-Phosphorus,1820
-Phosphorescent,1580
-Illumine,744
-Chromium,845
-Arsenic,726
-Zinc,1465
-Selenium,130
-Xenon,1125
-Osmium,363
-Fox,1215
-Coyote,918
-Crow,435
-Spider,519
-Bat,1947
-Serpent,659
-Satyr,1261
-Oleander,1321
-Hemlock,22
-Vegas,297
-Blackjack,943
-Baccarat,307
-Red Dog,1855
-Poker,1636
-Keno,539
-The House,309
-Bookie,36
-Arbitrage,499
-Double Double,1498
-Explosive,752
-Black Cat,1434
-M-80,1188
-Smoke Bomb,113
-Amaretto,586
-Bacardi,1820
-Cognac,381
-Forever,1279
-Unstoppable,13
-Eternity,367
-Fanatic,9
-X-Treme,914
-Rabid,699
-Radical,340
-Kraken,94
-Lynch,234
-Mad Dog,483
-O'Doyle,1319
-Psycho,1351
-Ranger,1541
-Ratchet,1785
-Reaper,453
-Rigs,35
-Ripley,1385
-Roadkill,549
-Ronin,1642
-Rubble,969
-Sasquatch,721
-Scar,714
-Shiver,1320
-Skinner,1509
-Skull Crusher,206
-Slasher,161
-Steelshot,1588
-Surge,1604
-Sythe,1519
-Trip,1697
-Trooper,234
-Tweek,88
-Vein,188
-Void,845
-Wardon,1280
-Wraith,600
-Zero,1531
-Kevlar,363
-Bullet-Proof,1224
-Hurricane,344
-Tempest,917
-Pursuit,1837
-Uprising,111
-Sabotage,1200
-Rebellion,131
-Golem,925
-Hydra,1555
-Manticore,1563
-Minotaur,658
-Mothman,121
-Orthros,882
-Satyr,1406
-Furor,869
-Ire,1113
-Madness,1101
-Savage,995
-Mania,1914
-Atilla,1897
-Conqueror,1947
-Suleiman,1394
-Napoleon,1029
-Geronimo,615
-Dutch,1306
-Dux,123
-Jesse James,520
-X-Skull,1819
-Jawbone,544
-Skeleton,482
-Craniax,292
-Bone,494
-Cut,880
-Gash,135
-Scab,1913
-Annihilator,152
-Destroyer,1224
-Stabber,1681
-Hitter,1625
-Obliterator,1850
-Exterminator,1382
-Ruiner,1958
-Wildcat,1003
-Hellcat,52
-Tomcat,1355
-Panther,1225
-Jaguar,1324
-Bomber,69
-Strike Eagle,872
-Rimfire,1937
-Centerfire,31
-Power Train,1709
-Excavator,1285
-Shovel,1874
-Demise,789
-Grim,1696
-Menace,337
-Dementor,955
-Nightshade,312
-Venom,713
-The Unholy,1587
-Rot,987
-Omen,273
-Midnight,632
-Falchion,1902
-Zweihander,752
-Club,1945
-Maul,1018
-Bludgeon,1876
-Lance,637
-Tiger Claw,189
-Brass Knuckle,1139
-Gauntlet,1745
-Katar,472
-Dagger,330
-Gladius,1579
-Cutlass,8
-Scimitar,477
-Espada,1784
-Wolverine,1602
-Wolf,860
-Claw,1378
-Fang,1796
-Grip,1265
-Black Mamba,1556
-Goshawk,1225
-Majesty,469
-Malice,15
-Mannequin,1905
-Minx,1755
-Mirage,831
-Nightmare,572
-Nova,444
-Pumps,1975
-Raven,1398
-Resin,414
-Riveter,1272
-Rogue,935
-Roulette,842
-Shadow,837
-Siren,1271
-Stiletto,283
-Tattoo,705
-T-Back,317
-Temperance,153
-Tequila,1316
-Terror,1763
-Thunderbird,1632
-Ultra,1167
-Vanity,1039
-Velvet,671
-Vixen,229
-Voodoo,957
-Wicked,59
-Widow,1850
-Xenon,1225
-Teuta,1645
-Artemis,1097
-Atalanta,1767
-Athena,952
-Enyo,1664
-Bellona,1936
-White Tights,402
-Shieldmaiden,1048
-Valkyrie,720
-Cleo,1306
-Empress,711
-Baroness,531
-Beguile,626
-Crafty,1263
-Deceit,1552
-Waylay,1583
-Ambush,1767
-Feint,1932
-Catch-22,1291
-Puzzler,923
-Curio,193
-Prodigy,175
-Breach,730
-Miss Fortune,24
-Vex,1234
-Grudge,1953
-Enmity,1523
-Animus,641
-Hostility,1087
-Rancor,352
-Malevolence,728
-Poison,249
-Spite,692
-Spitefulness,1928
-Venom,129
-Baltimore,1680
-L.A.,546
-NYC,382
-Spirit,565
-Kelpie,1185
-Vamp,531
-Temptress,873
-Diviner,824
-Exorcist,1355
-Seer,174
-Blaser,445
-Glock,878
-Ruger,1210
-Tank,1110
-Torchy,821
-Trinity,1550
-Zoe,417
-Zen,1261
-Alyx,28
-Katniss,1297
-Linh,1111
-Polgara,1685
-Elektra,1673
-Catwoman,138
-Mercury,91
-Radon,839
-Radium,548
-Element,1552
-Elemental,1748
-Lab Rat,1773
-Acid,1593
-Atom,774
-Electron,282
-Atomic,1929
-Nuclear,1848
-Earth Metal,1691
-Nightshade,59
-Mercury,1369
-Cyanide,1735
-Toxin,1197
-Virus,939
-Arsenic,802
-Orb,885
-Astor,553
-Mortal,1675
-Snake Eyes,889
-High Roller,1179
-Pocket Rocket,1117
-Mojave,1204
-Bellagio,1569
-Nevada,817
-Reno,879
-Steppe,448
-Fishnet,670
-Dagger,73
-Grenade,502
-Roman Candle,1638
-Babylon Candle,1128
-Missile,1916
-Dom,326
-Don,1152
-Joose,1387
-Revolution,1952
-Sever,1209
-Die-hard,1146
-Zealot,539
-Alien,467
-Predator,1641
-Barbarian,1322
-Isis,709
-Nefertiti,1591
-Sekhmet,74
-Ishtar,1158
-Ashtart,49
-Juno,1098
-Tanit,676
-Devi,262
-Selkie,292
-Venus,1040
-Marquess,1374
-Herzogin,135
-Deviant,609
-Variance,1471
-Caprice,1942
-Aberr,1337
-Variant,671
-Hero,775
-Villain,1597
-Daredevil,342
-Mercenary,1014
-Voyager,1996
-Wanderer,1055
-Audacity,928
-Swagger,1539
-Nerve,497
-Egomania,1008
-Scheme,1269
-Paramour,1227
-X-hibit,1123
-Charade,466
-Hauteur,193
-Vainglory,1597
-Narcissus,1583
-Brass,1475
-Crown Heights,1457
-Dirty Dirty,1327
-ATL,929
-Spellbinder,1955
-Jezebel,1215
-Sorceress,1482
-She-Devil,490
-Hellcat,500
-She-Wolf,1727
-Madcap,786
-Savage,1565
-Seraphim,1034
-Winchester,357
-Hawkeye,61
-Medusa,1590
-Irons,1922
-Storm,208
-Jubilee,1366
-Dazzler,1719
-Aeryn,1022
-Arya,1047
-Ygritte,217
-Bayonetta,1297
-Sindel,654
-Entropy,1311
-Radioactive,1134
-Radiate,1339
-Ion,379
-Eon,950
-Photon,451
-Redox,1074
-Redux,492
-Hot Salt,623
-Vapor,1377
-Volt,1742
-X-Ray,1852
-Immortal,1978
-Meteor,1233
-Comet,812
-Protostar,1219
-Medium,1855
-Dark Matter,615
-Hypernova,1197
-Stratosphere,816
-Supernova,439
-Militant,252
-Lock,570
-The Money,424
-Dice,55
-Rocks,618
-Watchface,1714
-Big Time,1848
-Two Face,154
-Deep Pockets,689
-Real Deal,1282
-Pyro,1415
-Gunpowder,618
-Mortar,1863
-Firebringer,464
-Noir,951
-Scotch,1675
-Whiskey,427
-Berserk,1893
-Bitten,122
-Corybantic,1108
-Crazed,250
-Delirious,1284
-Agitator,1872
-Maniac,1147
-Coffy,875
-Eowyn,1322
-Croft,1311
-Leeloo,923
-Mathilda,149
-Padme,500
-Ramona,1756
-Silk Spectre,1525
-Helium,976
-Beryllium,184
-Neon,1749
-Phosphorus,752
-Phosphorescent,1033
-Illumine,433
-Chromium,1
-Arsenic,302
-Zinc,1215
-Selenium,186
-Xenon,527
-Osmium,765
-Fox,202
-Coyote,1942
-Crow,763
-Spider,694
-Bat,1835
-Serpent,426
-Satyr,975
-Oleander,901
-Hemlock,830
-Vegas,1656
-Blackjack,1590
-Baccarat,326
-Red Dog,1917
-Poker,153
-Keno,459
-The House,1752
-Bookie,1390
-Arbitrage,1509
-Double Double,1889
-Explosive,1457
-Black Cat,1629
-M-80,1554
-Smoke Bomb,1996
-Amaretto,1598
-Bacardi,452
-Cognac,1223
-Forever,1788
-Unstoppa,725
-Bookie,1558
-Arbitrage,1468
-Double Double,457
-Explosive,473
-Black Cat,1211
-M-80,416
-Smoke Bomb,1322
-Amaretto,1433
-Bacardi,1045
-Cognac,118
-Forever,656
-Unstoppable,1718
-Eternity,1346
-Fanatic,62
-X-Treme,287
-Rabid,526
-Radical,810
-Kraken,1307
-Lynch,205
-Mad Dog,1994
-O'Doyle,1400
-Psycho,582
-Ranger,1539
-Ratchet,1632
-Reaper,1798
-Rigs,606
-Ripley,1153
-Roadkill,534
-Ronin,449
-Rubble,521
-Sasquatch,1101
-Scar,260
-Shiver,747
-Skinner,652
-Skull Crusher,1131
-Slasher,340
-Steelshot,1151
-Surge,627
-Sythe,1097
-Trip,1801
-Trooper,799
-Tweek,1822
-Vein,1185
-Void,857
-Wardon,1305
-Wraith,1017
-Zero,386
-Kevlar,809
-Bullet-Proof,440
-Hurricane,1798
-Tempest,1896
-Pursuit,211
-Uprising,263
-Sabotage,1304
-Rebellion,1639
-Golem,1014
-Hydra,1280
-Manticore,30
-Minotaur,1927
-Mothman,107
-Orthros,675
-Satyr,171
-Furor,1753
-Ire,1855
-Madness,818
-Savage,1486
-Mania,1992
-Atilla,834
-Conqueror,1721
-Suleiman,195
-Napoleon,1931
-Geronimo,1754
-Dutch,203
-Dux,197
-Jesse James,1271
-X-Skull,1140
+Destructor,230,Asia
+Killer,150,Europe
+Constantine,250,South America
+Mercenary,470,South America
+Soldier,150,South America
+Gladiator,543,South America
+Fighter,656,South America
+Allison,451,South America
+Jack,998,South America
+Punisher,1230,Europe
+Aspect,158,Europe
+Bender,1412,Europe
+Big Papa,378,Europe
+Bowser,16,Europe
+Bruise,607,Europe
+Cannon,1691,Europe
+Clink,1671,Europe
+Cobra,740,Europe
+Colt,1799,Europe
+Crank,1624,Asia
+Creep,1884,Asia
+Daemon,56,Asia
+Decay,1328,Asia
+Diablo,1500,Asia
+Doom,1558,Asia
+Dracula,576,Asia
+Dragon,1424,Asia
+Fender,423,Asia
+Fester,234,Asia
+Fisheye,71,Asia
+Flack,183,Asia
+Gargoyle,1748,Africa
+Grave,1078,Africa
+Gunner,1851,Africa
+Hash,1765,Africa
+Hashtag,1391,Africa
+Indominus,1075,Africa
+Ironclad,632,Africa
+Killer,1513,Africa
+Knuckles,1476,Africa
+Steel,1175,North America
+Tito,1055,North America
+Titanium,1107,North America
+Iron-Cut,149,North America
+Steel Forge,135,North America
+Upsurge,179,North America
+Breaker,299,North America
+Subversion,1576,North America
+Loch,617,North America
+Rex,1377,North America
+Balrog,619,North America
+Basilisk,459,North America
+Cerberus,1959,North America
+Charybdis,1577,North America
+Cyclops,1943,North America
+Ballistic,5,North America
+Fury,1535,North America
+Wrath,909,North America
+Rage,1149,North America
+Frenzy,698,North America
+V,792,North America
+Terminator,1285,North America
+Siddhartha,887,Europe
+Thor,1018,Europe
+Khan,1280,Europe
+Leonidas,1244,Europe
+Hannibal,942,Europe
+Agrippa,1270,Europe
+Bleed,272,Europe
+Nail,1306,Europe
+Fist,1896,Europe
+Tooth,1248,Europe
+K-9,1153,Europe
+Kneecap,1167,Europe
+Soleus,258,Europe
+Blood,47,Europe
+Wracker,1095,Europe
+Wrecker,1721,Europe
+Clencher,1240,Europe
+Masher,972,Europe
+Crusher,971,Europe
+Slammer,1058,Europe
+Thrasher,641,Europe
+Torpedo,748,Europe
+Cannon,1751,South America
+Mortar,730,South America
+Siege,1385,South America
+Bullet,1658,South America
+Aero,1451,South America
+Albatross,1356,South America
+Arsenal,1366,South America
+Hornet,863,South America
+Demolition,316,South America
+Chainsaw,351,South America
+Wrench,1419,South America
+Terror,209,South America
+Freak,1820,South America
+Axe,1691,South America
+Axe-man,874,South America
+Executioner,517,South America
+Hollowman,437,South America
+Garrot,1254,South America
+Abyss,1844,South America
+Chasm,1827,South America
+Ghoul,1678,South America
+Mace,1499,South America
+Battleaxe,589,South America
+Billhook,1973,South America
+Caltrop,1200,South America
+Longbow,1381,South America
+Crossbow,1115,South America
+Pike,1611,South America
+Poleaxe,1122,South America
+Quarterstaff,733,South America
+War Hammer,1373,South America
+Spear,1534,South America
+Katana,1137,South America
+Saber,158,South America
+Broadsword,1241,South America
+Claymore,814,South America
+Grizzly,1324,South America
+Snake,1905,South America
+Vulture,1357,South America
+Falcon,427,South America
+Ram,651,South America
+Boar,170,South America
+Tusk,934,South America
+Amazon,1565,South America
+Anomoly,1439,South America
+Banshee,1822,South America
+Belladonna,303,South America
+Beretta,1216,South America
+Black Beauty,1076,South America
+Calypso,1679,South America
+Carbon,17,South America
+Cascade,415,South America
+Colada,1828,South America
+Cosma,982,South America
+Cougar,601,South America
+Countess,1067,South America
+Enchantress,1909,South America
+Enigma,1068,South America
+Femme Fatale,1496,South America
+Firecracker,1977,South America
+Geisha,1698,South America
+Goddess,1365,South America
+Half Pint,1108,South America
+Harlem,278,South America
+Heroin,1000,South America
+Infinity,1450,South America
+Insomnia,1467,South America
+Ivy,487,South America
+Legacy,903,South America
+Lithium,1025,South America
+Lolita,743,South America
+Lotus,1025,South America
+Mademoiselle,296,South America
+Kahina,74,South America
+Dihya,445,South America
+Running Eagle,1409,South America
+Colestah,157,South America
+Calamity Jane,1176,South America
+Pearl Heart,480,South America
+Belle Starr,154,South America
+Hua Mulan,1043,South America
+Boudica,1147,South America
+Medb,275,South America
+Madam,1449,South America
+Duchess,5,South America
+Fate,1798,South America
+Illusion,539,South America
+Delusion,1638,South America
+Deception,1291,South America
+Myth,930,South America
+Daydream,1538,South America
+Night Terror,969,South America
+Figment,671,South America
+Virtual,1662,South America
+Chicanery,568,South America
+Trick,471,South America
+Vile,528,South America
+Horror,1745,Asia
+Dismay,1588,Asia
+Phobia,296,Asia
+Fright,927,Asia
+Panic,302,Asia
+Agony,329,Asia
+Inferno,565,Asia
+Blaze,263,Asia
+Crucible,1859,Asia
+Haunter,1235,Asia
+Bane,1171,Asia
+Camden,1322,Asia
+Detroit,1566,Asia
+McKinley,289,Asia
+Fiend,695,Asia
+Goblin,1862,Asia
+Oracle,203,Asia
+Soul,908,Asia
+Revenant,309,Asia
+Poltergeist,470,Asia
+Zombie,1982,Asia
+Armor,1669,Asia
+Benelli,1481,Asia
+Remington,1620,Asia
+Aeon,1386,Asia
+Kiddo,926,Asia
+Buffy,625,Asia
+Coffy,1693,Asia
+Eowyn,1645,Asia
+Croft,718,Asia
+Leeloo,1381,Asia
+Mathilda,1661,Asia
+Padme,120,Asia
+Ramona,1656,Asia
+Silk Spectre,1572,Asia
+Helium,1674,Asia
+Beryllium,782,Asia
+Neon,1029,Asia
+Phosphorus,1820,Asia
+Phosphorescent,1580,Asia
+Illumine,744,Asia
+Chromium,845,Asia
+Arsenic,726,Asia
+Zinc,1465,Asia
+Selenium,130,Asia
+Xenon,1125,Asia
+Osmium,363,Asia
+Fox,1215,Asia
+Coyote,918,Asia
+Crow,435,Asia
+Spider,519,Asia
+Bat,1947,Asia
+Serpent,659,Asia
+Satyr,1261,Asia
+Oleander,1321,Asia
+Hemlock,22,Asia
+Vegas,297,Asia
+Blackjack,943,Asia
+Baccarat,307,Asia
+Red Dog,1855,Asia
+Poker,1636,Asia
+Keno,539,Asia
+The House,309,Asia
+Bookie,36,Asia
+Arbitrage,499,Asia
+Double Double,1498,Asia
+Explosive,752,Asia
+Black Cat,1434,Asia
+M-80,1188,Asia
+Smoke Bomb,113,Asia
+Amaretto,586,Asia
+Bacardi,1820,Asia
+Cognac,381,Asia
+Forever,1279,Asia
+Unstoppable,13,Asia
+Eternity,367,Asia
+Fanatic,9,Asia
+X-Treme,914,Asia
+Rabid,699,Asia
+Radical,340,Asia
+Kraken,94,Asia
+Lynch,234,Asia
+Mad Dog,483,Asia
+O'Doyle,1319,Asia
+Psycho,1351,Asia
+Ranger,1541,Asia
+Ratchet,1785,Asia
+Reaper,453,Asia
+Rigs,35,Asia
+Ripley,1385,Asia
+Roadkill,549,Asia
+Ronin,1642,Asia
+Rubble,969,Asia
+Sasquatch,721,Asia
+Scar,714,Asia
+Shiver,1320,Asia
+Skinner,1509,Asia
+Skull Crusher,206,Asia
+Slasher,161,Asia
+Steelshot,1588,Asia
+Surge,1604,Asia
+Sythe,1519,Asia
+Trip,1697,Asia
+Trooper,234,Asia
+Tweek,88,Asia
+Vein,188,Asia
+Void,845,Asia
+Wardon,1280,Asia
+Wraith,600,Asia
+Zero,1531,Asia
+Kevlar,363,Asia
+Bullet-Proof,1224,Asia
+Hurricane,344,Asia
+Tempest,917,Asia
+Pursuit,1837,Asia
+Uprising,111,Asia
+Sabotage,1200,Asia
+Rebellion,131,Asia
+Golem,925,Asia
+Hydra,1555,Asia
+Manticore,1563,Asia
+Minotaur,658,Asia
+Mothman,121,Asia
+Orthros,882,Asia
+Satyr,1406,Asia
+Furor,869,Asia
+Ire,1113,Asia
+Madness,1101,Asia
+Savage,995,Asia
+Mania,1914,Asia
+Atilla,1897,Asia
+Conqueror,1947,Asia
+Suleiman,1394,Asia
+Napoleon,1029,Asia
+Geronimo,615,Asia
+Dutch,1306,Asia
+Dux,123,Asia
+Jesse James,520,Asia
+X-Skull,1819,Asia
+Jawbone,544,Asia
+Skeleton,482,Asia
+Craniax,292,Asia
+Bone,494,Asia
+Cut,880,Asia
+Gash,135,Asia
+Scab,1913,Asia
+Annihilator,152,Asia
+Destroyer,1224,Africa
+Stabber,1681,Africa
+Hitter,1625,Africa
+Obliterator,1850,Africa
+Exterminator,1382,Africa
+Ruiner,1958,Africa
+Wildcat,1003,Africa
+Hellcat,52,Africa
+Tomcat,1355,Africa
+Panther,1225,Africa
+Jaguar,1324,Africa
+Bomber,69,Africa
+Strike Eagle,872,Africa
+Rimfire,1937,Africa
+Centerfire,31,Africa
+Power Train,1709,Africa
+Excavator,1285,Africa
+Shovel,1874,Africa
+Demise,789,Africa
+Grim,1696,Africa
+Menace,337,Africa
+Dementor,955,Africa
+Nightshade,312,Africa
+Venom,713,Africa
+The Unholy,1587,Africa
+Rot,987,Africa
+Omen,273,Africa
+Midnight,632,Africa
+Falchion,1902,Africa
+Zweihander,752,Africa
+Club,1945,Africa
+Maul,1018,Africa
+Bludgeon,1876,Africa
+Lance,637,Africa
+Tiger Claw,189,Africa
+Brass Knuckle,1139,Africa
+Gauntlet,1745,Africa
+Katar,472,Africa
+Dagger,330,Africa
+Gladius,1579,Africa
+Cutlass,8,Africa
+Scimitar,477,Africa
+Espada,1784,Africa
+Wolverine,1602,Africa
+Wolf,860,Africa
+Claw,1378,Africa
+Fang,1796,Africa
+Grip,1265,Africa
+Black Mamba,1556,Africa
+Goshawk,1225,Africa
+Majesty,469,Africa
+Malice,15,Africa
+Mannequin,1905,Africa
+Minx,1755,Africa
+Mirage,831,Africa
+Nightmare,572,Africa
+Nova,444,Africa
+Pumps,1975,Africa
+Raven,1398,Africa
+Resin,414,Africa
+Riveter,1272,Africa
+Rogue,935,Africa
+Roulette,842,Africa
+Shadow,837,Africa
+Siren,1271,Africa
+Stiletto,283,Africa
+Tattoo,705,Africa
+T-Back,317,Africa
+Temperance,153,Africa
+Tequila,1316,Africa
+Terror,1763,Africa
+Thunderbird,1632,Africa
+Ultra,1167,Africa
+Vanity,1039,Africa
+Velvet,671,Africa
+Vixen,229,Africa
+Voodoo,957,Africa
+Wicked,59,Africa
+Widow,1850,Africa
+Xenon,1225,Africa
+Teuta,1645,Africa
+Artemis,1097,Africa
+Atalanta,1767,Africa
+Athena,952,Africa
+Enyo,1664,Africa
+Bellona,1936,Africa
+White Tights,402,Africa
+Shieldmaiden,1048,Africa
+Valkyrie,720,Africa
+Cleo,1306,Africa
+Empress,711,Africa
+Baroness,531,Africa
+Beguile,626,Africa
+Crafty,1263,Africa
+Deceit,1552,Africa
+Waylay,1583,Africa
+Ambush,1767,Africa
+Feint,1932,Africa
+Catch-22,1291,Africa
+Puzzler,923,Africa
+Curio,193,Africa
+Prodigy,175,Africa
+Breach,730,Africa
+Miss Fortune,24,Africa
+Vex,1234,Africa
+Grudge,1953,Africa
+Enmity,1523,Africa
+Animus,641,Africa
+Hostility,1087,Africa
+Rancor,352,Africa
+Malevolence,728,Africa
+Poison,249,Africa
+Spite,692,Africa
+Spitefulness,1928,Africa
+Venom,129,Africa
+Baltimore,1680,Africa
+L.A.,546,Africa
+NYC,382,Africa
+Spirit,565,Africa
+Kelpie,1185,Africa
+Vamp,531,Africa
+Temptress,873,Africa
+Diviner,824,Africa
+Exorcist,1355,Africa
+Seer,174,Africa
+Blaser,445,Africa
+Glock,878,Africa
+Ruger,1210,Africa
+Tank,1110,Africa
+Torchy,821,Africa
+Trinity,1550,Africa
+Zoe,417,Africa
+Zen,1261,Africa
+Alyx,28,Africa
+Katniss,1297,Africa
+Linh,1111,Africa
+Polgara,1685,Africa
+Elektra,1673,Africa
+Catwoman,138,Africa
+Mercury,91,Africa
+Radon,839,Africa
+Radium,548,Africa
+Element,1552,Africa
+Elemental,1748,Africa
+Lab Rat,1773,Africa
+Acid,1593,Africa
+Atom,774,Africa
+Electron,282,Africa
+Atomic,1929,Africa
+Nuclear,1848,Africa
+Earth Metal,1691,Africa
+Nightshade,59,Africa
+Mercury,1369,Africa
+Cyanide,1735,Africa
+Toxin,1197,Africa
+Virus,939,Africa
+Arsenic,802,Africa
+Orb,885,Africa
+Astor,553,Africa
+Mortal,1675,Africa
+Snake Eyes,889,Africa
+High Roller,1179,Africa
+Pocket Rocket,1117,Africa
+Mojave,1204,Africa
+Bellagio,1569,Africa
+Nevada,817,Africa
+Reno,879,North America
+Steppe,448,North America
+Fishnet,670,North America
+Dagger,73,North America
+Grenade,502,North America
+Roman Candle,1638,North America
+Babylon Candle,1128,North America
+Missile,1916,North America
+Dom,326,North America
+Don,1152,North America
+Joose,1387,North America
+Revolution,1952,North America
+Sever,1209,North America
+Die-hard,1146,North America
+Zealot,539,North America
+Alien,467,North America
+Predator,1641,North America
+Barbarian,1322,North America
+Isis,709,North America
+Nefertiti,1591,North America
+Sekhmet,74,North America
+Ishtar,1158,North America
+Ashtart,49,North America
+Juno,1098,North America
+Tanit,676,North America
+Devi,262,North America
+Selkie,292,North America
+Venus,1040,North America
+Marquess,1374,North America
+Herzogin,135,North America
+Deviant,609,North America
+Variance,1471,North America
+Caprice,1942,North America
+Aberr,1337,North America
+Variant,671,North America
+Hero,775,North America
+Villain,1597,North America
+Daredevil,342,North America
+Mercenary,1014,North America
+Voyager,1996,North America
+Wanderer,1055,North America
+Audacity,928,North America
+Swagger,1539,North America
+Nerve,497,North America
+Egomania,1008,North America
+Scheme,1269,North America
+Paramour,1227,North America
+X-hibit,1123,North America
+Charade,466,North America
+Hauteur,193,North America
+Vainglory,1597,North America
+Narcissus,1583,North America
+Brass,1475,North America
+Crown Heights,1457,North America
+Dirty Dirty,1327,North America
+ATL,929,North America
+Spellbinder,1955,North America
+Jezebel,1215,North America
+Sorceress,1482,North America
+She-Devil,490,North America
+Hellcat,500,North America
+She-Wolf,1727,North America
+Madcap,786,North America
+Savage,1565,North America
+Seraphim,1034,North America
+Winchester,357,North America
+Hawkeye,61,North America
+Medusa,1590,North America
+Irons,1922,North America
+Storm,208,North America
+Jubilee,1366,North America
+Dazzler,1719,North America
+Aeryn,1022,North America
+Arya,1047,North America
+Ygritte,217,North America
+Bayonetta,1297,North America
+Sindel,654,North America
+Entropy,1311,North America
+Radioactive,1134,North America
+Radiate,1339,North America
+Ion,379,North America
+Eon,950,North America
+Photon,451,North America
+Redox,1074,North America
+Redux,492,North America
+Hot Salt,623,North America
+Vapor,1377,North America
+Volt,1742,North America
+X-Ray,1852,North America
+Immortal,1978,North America
+Meteor,1233,North America
+Comet,812,North America
+Protostar,1219,North America
+Medium,1855,North America
+Dark Matter,615,North America
+Hypernova,1197,North America
+Stratosphere,816,North America
+Supernova,439,North America
+Militant,252,North America
+Lock,570,North America
+The Money,424,North America
+Dice,55,North America
+Rocks,618,North America
+Watchface,1714,North America
+Big Time,1848,North America
+Two Face,154,North America
+Deep Pockets,689,North America
+Real Deal,1282,North America
+Pyro,1415,North America
+Gunpowder,618,North America
+Mortar,1863,North America
+Firebringer,464,North America
+Noir,951,North America
+Scotch,1675,North America
+Whiskey,427,North America
+Berserk,1893,North America
+Bitten,122,North America
+Corybantic,1108,North America
+Crazed,250,North America
+Delirious,1284,North America
+Agitator,1872,North America
+Maniac,1147,North America
+Coffy,875,North America
+Eowyn,1322,North America
+Croft,1311,North America
+Leeloo,923,North America
+Mathilda,149,North America
+Padme,500,North America
+Ramona,1756,North America
+Silk Spectre,1525,North America
+Helium,976,North America
+Beryllium,184,North America
+Neon,1749,North America
+Phosphorus,752,North America
+Phosphorescent,1033,North America
+Illumine,433,North America
+Chromium,1,North America
+Arsenic,302,North America
+Zinc,1215,North America
+Selenium,186,North America
+Xenon,527,North America
+Osmium,765,North America
+Fox,202,North America
+Coyote,1942,North America
+Crow,763,North America
+Spider,694,North America
+Bat,1835,North America
+Serpent,426,North America
+Satyr,975,North America
+Oleander,901,North America
+Hemlock,830,North America
+Vegas,1656,South America
+Blackjack,1590,South America
+Baccarat,326,South America
+Red Dog,1917,South America
+Poker,153,South America
+Keno,459,South America
+The House,1752,South America
+Bookie,1390,South America
+Arbitrage,1509,South America
+Double Double,1889,South America
+Explosive,1457,South America
+Black Cat,1629,South America
+M-80,1554,South America
+Smoke Bomb,1996,South America
+Amaretto,1598,South America
+Bacardi,452,South America
+Cognac,1223,South America
+Forever,1788,South America
+Unstoppa,725,South America
+Bookie,1558,South America
+Arbitrage,1468,South America
+Double Double,457,South America
+Explosive,473,South America
+Black Cat,1211,South America
+M-80,416,South America
+Smoke Bomb,1322,South America
+Amaretto,1433,South America
+Bacardi,1045,South America
+Cognac,118,South America
+Forever,656,South America
+Unstoppable,1718,South America
+Eternity,1346,South America
+Fanatic,62,South America
+X-Treme,287,South America
+Rabid,526,South America
+Radical,810,South America
+Kraken,1307,South America
+Lynch,205,South America
+Mad Dog,1994,South America
+O'Doyle,1400,South America
+Psycho,582,South America
+Ranger,1539,South America
+Ratchet,1632,South America
+Reaper,1798,South America
+Rigs,606,South America
+Ripley,1153,South America
+Roadkill,534,South America
+Ronin,449,South America
+Rubble,521,South America
+Sasquatch,1101,South America
+Scar,260,South America
+Shiver,747,South America
+Skinner,652,South America
+Skull Crusher,1131,South America
+Slasher,340,South America
+Steelshot,1151,South America
+Surge,627,South America
+Sythe,1097,South America
+Trip,1801,South America
+Trooper,799,South America
+Tweek,1822,South America
+Vein,1185,South America
+Void,857,South America
+Wardon,1305,South America
+Wraith,1017,South America
+Zero,386,South America
+Kevlar,809,South America
+Bullet-Proof,440,South America
+Hurricane,1798,South America
+Tempest,1896,South America
+Pursuit,211,South America
+Uprising,263,South America
+Sabotage,1304,South America
+Rebellion,1639,South America
+Golem,1014,South America
+Hydra,1280,South America
+Manticore,30,South America
+Minotaur,1927,South America
+Mothman,107,South America
+Orthros,675,South America
+Satyr,171,South America
+Furor,1753,South America
+Ire,1855,South America
+Madness,818,South America
+Savage,1486,South America
+Mania,1992,South America
+Atilla,834,South America
+Conqueror,1721,South America
+Suleiman,195,South America
+Napoleon,1931,South America
+Geronimo,1754,South America
+Dutch,203,South America
+Dux,197,South America
+Jesse James,1271,South America
+X-Skull,1140,South America

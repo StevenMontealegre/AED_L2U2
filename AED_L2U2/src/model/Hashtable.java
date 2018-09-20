@@ -1,14 +1,16 @@
 package model;
 
 public class Hashtable {
-	public final static Integer size = 3;
+	public final static Integer size = 199;
 	private Score[] table;
 	private int numElements;
+	private int collisionsNumber;
 
 	public Hashtable() {
 		// TODO Auto-generated constructor stub
 		setTable(new Score[size]);
 		setNumElements(0);
+		setCollisionsNumber(0);
 
 	}
 
@@ -33,6 +35,7 @@ public class Hashtable {
 			numElements++;
 			System.out.println(numElements);
 		} else {
+			collisionsNumber++;
 			l.addElement(s);
 			s.setKey(hash);
 			numElements++;
@@ -70,6 +73,14 @@ public class Hashtable {
 
 	public void setNumElements(int numElements) {
 		this.numElements = numElements;
+	}
+
+	public int getCollisionsNumber() {
+		return collisionsNumber;
+	}
+
+	public void setCollisionsNumber(int collisionsNumber) {
+		this.collisionsNumber = collisionsNumber;
 	}
 
 }
