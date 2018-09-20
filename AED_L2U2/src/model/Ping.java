@@ -51,7 +51,7 @@ public class Ping {
 		return ip;
 	}
 
-	// Show if the connection is established
+	// Show if the connection is established and latency
 	public String connect(String ip) {
 		InetAddress ping;
 
