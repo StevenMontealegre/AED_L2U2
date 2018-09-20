@@ -67,8 +67,9 @@ public class Fornite {
 	}
 
 	public Score findingPlayer(Score s) {
-		Integer value = s.getValue();
+
 		int key = hashTable.hash(s.getValue());
-		return hashTable.rechieve(key, value);
+		Score sco = hashTable.getTable()[key];
+		return sco;
 	}
 }

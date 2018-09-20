@@ -1,7 +1,7 @@
 package model;
 
 public class Hashtable {
-	public final static Integer size = 199;
+	public final static Integer size = 3;
 	private Score[] table;
 	private int numElements;
 
