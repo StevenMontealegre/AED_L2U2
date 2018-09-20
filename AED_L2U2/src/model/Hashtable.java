@@ -32,15 +32,12 @@ public class Hashtable {
 			s.setKey(hash);
 			numElements++;
 			System.out.println(numElements);
-
 		} else {
 			l.addElement(s);
 			s.setKey(hash);
 			numElements++;
 			System.out.println(numElements);
-
 		}
-
 	}
 	// look for a element in the linkedlist
 
