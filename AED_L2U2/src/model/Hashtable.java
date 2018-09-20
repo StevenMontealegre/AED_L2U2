@@ -42,7 +42,7 @@ public class Hashtable {
 			System.out.println(numElements);
 		}
 	}
-	// look for a element in the linkedlist
+	// look for a element in the linkedin
 
 	public Score rechieve(Integer key, Integer value) {
 		Score haveFound = null;
