@@ -25,13 +25,7 @@ public class Main extends Application {
 	
 	public static String[] showWeaponsNames()
 	{
-		System.out.println("Show Weapons Name");
 		String[] names = fortnite.showWeaponsNames();
-		
-		for(int i= 0; i<names.length;i++)
-		{
-			System.out.println(names[i]);
-		}
 		return names;
 	}
 	
@@ -50,7 +44,6 @@ public class Main extends Application {
 	public static void showMainView() throws IOException
 	{
 		
-		System.out.println("main menu");
 		FXMLLoader loader = new  FXMLLoader();
 		loader.setLocation(Main.class.getResource("Main.fxml"));
 		mainLayout = loader.load();
@@ -59,39 +52,27 @@ public class Main extends Application {
 		primaryStage.show();
 	
 	}
-	
-	
-	
-	
-	
 
 	public static void showMainMenu() throws IOException
 	{
-		
-		System.out.println("main menu");
-
 		FXMLLoader loader = new FXMLLoader();
 		loader.setLocation(Main.class.getResource("MainMenu.fxml"));
 		AnchorPane menu = loader.load();
 		mainLayout.setCenter(menu);
 	}
 	
-	public static void showMain2() throws IOException
+
+	public static void showHashTableView() throws IOException
 	{
-		
-		System.out.println("Main 2");
-		FXMLLoader loader = new  FXMLLoader();
-		loader.setLocation(Main.class.getResource("Main2.fxml"));
-		mainLayout = loader.load();
-		Scene scene = new Scene(mainLayout);
-		primaryStage.setScene(scene);
-		primaryStage.show();
+		FXMLLoader loader = new FXMLLoader();
+		loader.setLocation(Main.class.getResource("HashTableView.fxml"));
+		AnchorPane menu = loader.load();
+		mainLayout.setCenter(menu);
 	}
+	
 	
 	public static void showWeaponsView() throws IOException
 	{
-		
-		
 		FXMLLoader loader = new FXMLLoader();
 		loader.setLocation(Main.class.getResource("WeaponsView.fxml"));
 		AnchorPane weaponsView = loader.load();
@@ -102,22 +83,32 @@ public class Main extends Application {
 	public void showChargingView() throws IOException
 	{
 		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(Main.class.getResource("ChargingView.fxml"));
-		BorderPane chargingView = loader.load();
+		loader.setLocation(Main.class.getResource("ChargingView2.fxml"));
+		AnchorPane chargingView = loader.load();
 		mainLayout.setCenter(chargingView);
 	}
 	
-	public static String getNextWeapon()
+	public static String getNextWeapon(int q)
 	{
-		String urlImage = fortnite.getNextWeapon();
+		String urlImage = fortnite.getNextWeapon(q);
 		return urlImage;
 	}
 
 	
-	public static void useWeapon()
+	public static String catchWeapon()
 	{
-		fortnite.useWeapon();
+		String weaponCatched = fortnite.catchWeapon();
+		return weaponCatched;
 	}
+	
+	
+	
+	
+	public static String[] useWeapon()
+	{
+		return fortnite.useWeapon();
+	}
+	
 	public static void main(String[] args) {
 		launch(args);
 		Main m = new Main();

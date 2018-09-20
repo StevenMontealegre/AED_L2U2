@@ -24,22 +24,19 @@ public class MainMenuController {
 	@FXML
 	private void req1() throws IOException
 	{
-		System.out.println("req1");
+		
+		main.showHashTableView();
 	}
 	@FXML
 	private void req2() throws IOException
 	{
 		System.out.println("req2");
-		//main.showMainView();
 	}@FXML
 	private void req3() throws IOException
 	{
-		System.out.println("req3");
 		main.showWeaponsView();
 	}@FXML
 	private void req4() throws IOException
 	{
-		System.out.println("req4");
-		//main.showMainView();
 	}
 }

@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Random;
+
 import javafx.beans.property.SimpleStringProperty;
 
 public class Weapon {
@@ -14,18 +16,22 @@ public class Weapon {
 	
 
 	private int type;
-	private int color;
+	private String color;
 	private int state;
 	private String name;
+	private String stackName;
 	
 	
-	public Weapon( String name, String col)
+	public Weapon( String name)
 	{
+		
+		Random r = new Random();
 	
-		this.color = classifyColor(col);
-		this.state = color + 2;
+		this.state = classifyColor(name);
 		this.name = name;
 		
+		int randNum = r.nextInt(278332);
+		this.stackName = randNum+ " "+color;
 	}
 	
 	public String getName()
@@ -33,27 +39,62 @@ public class Weapon {
 		return name;
 	}
 	
+	public String getColor()
+	{
+		return color;
+	}
+	
+	public String getStackName()
+	{
+		return stackName;
+	}
+	
+	public void useWeapon()
+	{
+		state--;
+		System.out.println("Estado: "+state);
+	}
+	
+	public int getState()
+	{
+		System.out.println("state get" + state);
+		return state;
+	}
+	
 	public int classifyColor(String col)
 	{
 		int c = 0;
-		switch(col)
+		char b = col.charAt(1);
+		char d = col.charAt(2);
+		char e = col.charAt(3);
+		String two = b+""+d+""+e;
+		switch(two)
 		{
-		case "Gray":
-			c = GRAY;
+		case "Gra":
+			c = GRAY*4;
+			color = "Gray";
 			break;
-		case "Green":
-			c = GREEN;
+		case "Gre":
+			c = GREEN*4;
+			color = "Green";
 			break;
-		case "Blue":
-			c = BLUE;
+		case "Blu":
+			c = BLUE*4;
+			color="Blue";
 			break;
-		case "Purple":
-			c = PURPLE;
+		case "Ora":
+			c = ORANGE*4;
+			color = "Orange";
 			break;
-		case "Gold":
-			c = GOLD;
+		case "Pur":
+			c = PURPLE*4;
+			color = "Purple";
 			break;
-		default: c = 100000;
+		case "Gol":
+			c = GOLD*4;
+			color="Gold";
+			break;
+		default: c = 1000000;
 		break;
 			
 		}
@@ -62,20 +103,5 @@ public class Weapon {
 	}
 	
 	
-	public boolean useWeapon()
-	{
-		boolean availibility;
-		if ( state > 0)
-		{
-			availibility = true;
-			state --;
-			System.out.println(state);
-		}
-		else 
-		{
-			availibility = false;
-		}
-		return availibility;
-	}
-
+	
 }

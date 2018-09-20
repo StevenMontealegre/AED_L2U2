@@ -2,29 +2,31 @@ package model;
 
 import java.util.ArrayList;
 
-public class Queue<T> {
+public class Queue<String> {
 	
-	private ArrayList<T> queue;
+	private ArrayList<String> queue;
 	
 	public Queue()
 	{
-		queue = new ArrayList<T>();
+		queue = new ArrayList<String>();
 	}
 	
-	public T dequeue()
+	public String dequeue()
 	{
-		System.out.println("size"+size());
-		T last = queue.get(size()-1);
+		String last = queue.get(size()-1);
 		queue.remove(size()-1);
-		System.out.println("size"+size());
-
 		return last;
 	}
 	
-	public void enqueue(T element)
+	public void enqueue(String element)
 	{
 		
 		queue.add(0, element);
+	}
+	
+	public String last()
+	{
+		return queue.get(size()-1);
 	}
 	
 	public int size()

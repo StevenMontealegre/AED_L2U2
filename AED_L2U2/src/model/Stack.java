@@ -8,11 +8,7 @@ public class Stack<T> {
 
 	public Stack( ) {
 		stack = new ArrayList<Weapon>();
-		Weapon w = new Weapon("Axe", "Axe");
-
-		Weapon q = new Weapon("Lop", "Gray");
-		push( w);
-		push( q);
+		
 	}
 	
 	

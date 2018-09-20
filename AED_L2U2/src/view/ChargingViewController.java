@@ -19,7 +19,6 @@ public class ChargingViewController {
 	private void continueMain() throws IOException
 	{
 		System.out.println("Drag");
-		main.showMain2();
 		main.showMainMenu();
 	}
 }

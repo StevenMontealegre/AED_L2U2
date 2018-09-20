@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Fornite<T> {
 
 	private Stack stack;
-	private Queue weaponsQueue;
+	private Queue<String> weaponsQueue;
 	private Hashtable hashTable;
 
 	public Fornite() {
@@ -18,47 +18,64 @@ public class Fornite<T> {
 
 	}
 	
-	public String getNextWeapon()
+	public String getNextWeapon(int q)
 	{
-		String urlImage = (String) weaponsQueue.dequeue();
+		weaponsQueue.dequeue();
+		String urlImage = (String) weaponsQueue.last();
+		if(q == 1)
+		{
+			weaponsQueue.enqueue(urlImage);
+		}
 		return urlImage;
 	}
 	
 	
-	public void useWeapon()
-	{
-		stack.top().useWeapon();
-	}
+
 	
 	public void createWeaponStack()
 	{
 		getWeapons();
 		stack = new Stack();
-		System.out.println("Stack to create");
 		int a = stack.size();
-		stack.push(new Weapon("abc", "Gray"));
-		System.out.println("1 " +a);
-		
-		System.out.println("2 "+stack.size());
-		
-		
+		stack.push(new Weapon("ax.png"));
 	}
 	
 	
+	public String[] useWeapon()
+	{
+		stack.top().useWeapon();
+		if( stack.top().getState()== 0 || stack.top().getState() <0)
+		{
+			stack.pop();
+		}
+		
+		String[] data = new String[4];
+		data[0] = stack.top().getName();
+		data[1] = stack.top().getColor();
+		data[2] = stack.top().getState() +"";
+		return data;
+	}
+	
+		
 	public String[] showWeaponsNames()
 	{
-		stack = new Stack<>();
-
 		String[] names = new String[stack.size()];
 		ArrayList<Weapon> s = stack.getStack();
 		for(int i = 0; i<s.size();i++)
 		{
 			
-			names[i] = s.get(i).getName();
-			System.out.println(names[i]);	
+			names[i] = s.get(i).getStackName();
 		}
 		return names;
 
+	}
+	
+	
+	public String catchWeapon()
+	{
+		String weapon = weaponsQueue.dequeue();
+		stack.push(new Weapon(weapon));
+		return weapon;
 	}
 
 	
@@ -82,14 +99,11 @@ public class Fornite<T> {
 			while ((linea = br.readLine()) != null) {
 
 				weaponsQueue.enqueue(linea);
-				System.out.println(linea);
 			}
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("File not found");
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("Reading exception");
 		} finally {
 			try {
 				if (null != fr) {
@@ -128,12 +142,11 @@ public class Fornite<T> {
 			}
 
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("File not found");
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} finally {
+			System.out.println("Reading exception");
+		}
+		finally {
 			try {
 				if (null != fr) {
 					fr.close();

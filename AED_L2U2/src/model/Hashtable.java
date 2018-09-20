@@ -28,15 +28,12 @@ public class Hashtable {
 			s.setKey(hash);
 			numElements++;
 			System.out.println(numElements);
-
 		} else {
 			l.addElement(s);
 			s.setKey(hash);
 			numElements++;
 			System.out.println(numElements);
-
 		}
-
 	}
 
 	public Score rechieve(Integer key, Integer value) {

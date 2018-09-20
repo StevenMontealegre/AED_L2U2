@@ -21,7 +21,7 @@ public class StackTest extends TestCase {
 	{
 		setUp1();
 		int a = stack.size();
-		stack.push(new Weapon("abc", "Gray"));
+		stack.push(new Weapon("abc"));
 		System.out.println(a);
 		a++;
 		assertEquals(a, stack.size());
