@@ -1,5 +1,6 @@
 package model;
 
+// This is a alternative data structure to counteract collisions
 public class LinkedList {
 
 	private Score first;
@@ -17,14 +18,14 @@ public class LinkedList {
 	public boolean isEmpty() {
 		return first == null;
 	}
-
+// Add elements to the list
 	public void addElement(Score s) {
 
 		s.setNext(first);
 		first = s;
 
 	}
-
+// look for elements into the list
 	public Score retrieve(Integer score) {
 
 		Score aux = first;

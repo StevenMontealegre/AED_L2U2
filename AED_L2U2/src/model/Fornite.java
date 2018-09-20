@@ -22,6 +22,7 @@ public class Fornite {
 		Weapon axe = new Weapon(0, "axe");
 
 	}
+	//Create a new Score using a text file. 
 
 	public void newGame() {
 		File archivo = null;
@@ -65,6 +66,8 @@ public class Fornite {
 		}
 
 	}
+	
+	//look for a Score entered by parameter
 
 	public Score findingPlayer(Score s) {
 

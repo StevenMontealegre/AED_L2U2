@@ -12,12 +12,16 @@ public class Hashtable {
 
 	}
 
+	// Its the hash function.
 	public Integer hash(Integer k) {
 		Integer key = 0;
+		// I used this format because its another way for represent absolut value; Its
+		// most faster to compute
 		key = (k & 0x7fffffff) % size;
 
 		return key;
 	}
+	// Insert a value in the linkedlist when a collision is ocurred
 
 	public void insert(Score s) {
 		Integer value = s.getValue();
@@ -38,6 +42,7 @@ public class Hashtable {
 		}
 
 	}
+	// look for a element in the linkedlist
 
 	public Score rechieve(Integer key, Integer value) {
 		Score haveFound = null;
