@@ -1,740 +1,730 @@
-Destructor,230,Asia
-Killer,150,Europe
-Constantine,250,South America
-Mercenary,470,South America
-Soldier,150,South America
-Gladiator,543,South America
-Fighter,656,South America
-Allison,451,South America
-Jack,998,South America
-Punisher,1230,Europe
-Aspect,158,Europe
-Bender,1412,Europe
-Big Papa,378,Europe
-Bowser,16,Europe
-Bruise,607,Europe
-Cannon,1691,Europe
-Clink,1671,Europe
-Cobra,740,Europe
-Colt,1799,Europe
-Crank,1624,Asia
-Creep,1884,Asia
-Daemon,56,Asia
-Decay,1328,Asia
-Diablo,1500,Asia
-Doom,1558,Asia
-Dracula,576,Asia
-Dragon,1424,Asia
-Fender,423,Asia
-Fester,234,Asia
-Fisheye,71,Asia
-Flack,183,Asia
-Gargoyle,1748,Africa
-Grave,1078,Africa
-Gunner,1851,Africa
-Hash,1765,Africa
-Hashtag,1391,Africa
-Indominus,1075,Africa
-Ironclad,632,Africa
-Killer,1513,Africa
-Knuckles,1476,Africa
-Steel,1175,North America
-Tito,1055,North America
-Titanium,1107,North America
-Iron-Cut,149,North America
-Steel Forge,135,North America
-Upsurge,179,North America
-Breaker,299,North America
-Subversion,1576,North America
-Loch,617,North America
-Rex,1377,North America
-Balrog,619,North America
-Basilisk,459,North America
-Cerberus,1959,North America
-Charybdis,1577,North America
-Cyclops,1943,North America
-Ballistic,5,North America
-Fury,1535,North America
-Wrath,909,North America
-Rage,1149,North America
-Frenzy,698,North America
-V,792,North America
-Terminator,1285,North America
-Siddhartha,887,Europe
-Thor,1018,Europe
-Khan,1280,Europe
-Leonidas,1244,Europe
-Hannibal,942,Europe
-Agrippa,1270,Europe
-Bleed,272,Europe
-Nail,1306,Europe
-Fist,1896,Europe
-Tooth,1248,Europe
-K-9,1153,Europe
-Kneecap,1167,Europe
-Soleus,258,Europe
-Blood,47,Europe
-Wracker,1095,Europe
-Wrecker,1721,Europe
-Clencher,1240,Europe
-Masher,972,Europe
-Crusher,971,Europe
-Slammer,1058,Europe
-Thrasher,641,Europe
-Torpedo,748,Europe
-Cannon,1751,South America
-Mortar,730,South America
-Siege,1385,South America
-Bullet,1658,South America
-Aero,1451,South America
-Albatross,1356,South America
-Arsenal,1366,South America
-Hornet,863,South America
-Demolition,316,South America
-Chainsaw,351,South America
-Wrench,1419,South America
-Terror,209,South America
-Freak,1820,South America
-Axe,1691,South America
-Axe-man,874,South America
-Executioner,517,South America
-Hollowman,437,South America
-Garrot,1254,South America
-Abyss,1844,South America
-Chasm,1827,South America
-Ghoul,1678,South America
-Mace,1499,South America
-Battleaxe,589,South America
-Billhook,1973,South America
-Caltrop,1200,South America
-Longbow,1381,South America
-Crossbow,1115,South America
-Pike,1611,South America
-Poleaxe,1122,South America
-Quarterstaff,733,South America
-War Hammer,1373,South America
-Spear,1534,South America
-Katana,1137,South America
-Saber,158,South America
-Broadsword,1241,South America
-Claymore,814,South America
-Grizzly,1324,South America
-Snake,1905,South America
-Vulture,1357,South America
-Falcon,427,South America
-Ram,651,South America
-Boar,170,South America
-Tusk,934,South America
-Amazon,1565,South America
-Anomoly,1439,South America
-Banshee,1822,South America
-Belladonna,303,South America
-Beretta,1216,South America
-Black Beauty,1076,South America
-Calypso,1679,South America
-Carbon,17,South America
-Cascade,415,South America
-Colada,1828,South America
-Cosma,982,South America
-Cougar,601,South America
-Countess,1067,South America
-Enchantress,1909,South America
-Enigma,1068,South America
-Femme Fatale,1496,South America
-Firecracker,1977,South America
-Geisha,1698,South America
-Goddess,1365,South America
-Half Pint,1108,South America
-Harlem,278,South America
-Heroin,1000,South America
-Infinity,1450,South America
-Insomnia,1467,South America
-Ivy,487,South America
-Legacy,903,South America
-Lithium,1025,South America
-Lolita,743,South America
-Lotus,1025,South America
-Mademoiselle,296,South America
-Kahina,74,South America
-Dihya,445,South America
-Running Eagle,1409,South America
-Colestah,157,South America
-Calamity Jane,1176,South America
-Pearl Heart,480,South America
-Belle Starr,154,South America
-Hua Mulan,1043,South America
-Boudica,1147,South America
-Medb,275,South America
-Madam,1449,South America
-Duchess,5,South America
-Fate,1798,South America
-Illusion,539,South America
-Delusion,1638,South America
-Deception,1291,South America
-Myth,930,South America
-Daydream,1538,South America
-Night Terror,969,South America
-Figment,671,South America
-Virtual,1662,South America
-Chicanery,568,South America
-Trick,471,South America
-Vile,528,South America
-Horror,1745,Asia
-Dismay,1588,Asia
-Phobia,296,Asia
-Fright,927,Asia
-Panic,302,Asia
-Agony,329,Asia
-Inferno,565,Asia
-Blaze,263,Asia
-Crucible,1859,Asia
-Haunter,1235,Asia
-Bane,1171,Asia
-Camden,1322,Asia
-Detroit,1566,Asia
-McKinley,289,Asia
-Fiend,695,Asia
-Goblin,1862,Asia
-Oracle,203,Asia
-Soul,908,Asia
-Revenant,309,Asia
-Poltergeist,470,Asia
-Zombie,1982,Asia
-Armor,1669,Asia
-Benelli,1481,Asia
-Remington,1620,Asia
-Aeon,1386,Asia
-Kiddo,926,Asia
-Buffy,625,Asia
-Coffy,1693,Asia
-Eowyn,1645,Asia
-Croft,718,Asia
-Leeloo,1381,Asia
-Mathilda,1661,Asia
-Padme,120,Asia
-Ramona,1656,Asia
-Silk Spectre,1572,Asia
-Helium,1674,Asia
-Beryllium,782,Asia
-Neon,1029,Asia
-Phosphorus,1820,Asia
-Phosphorescent,1580,Asia
-Illumine,744,Asia
-Chromium,845,Asia
-Arsenic,726,Asia
-Zinc,1465,Asia
-Selenium,130,Asia
-Xenon,1125,Asia
-Osmium,363,Asia
-Fox,1215,Asia
-Coyote,918,Asia
-Crow,435,Asia
-Spider,519,Asia
-Bat,1947,Asia
-Serpent,659,Asia
-Satyr,1261,Asia
-Oleander,1321,Asia
-Hemlock,22,Asia
-Vegas,297,Asia
-Blackjack,943,Asia
-Baccarat,307,Asia
-Red Dog,1855,Asia
-Poker,1636,Asia
-Keno,539,Asia
-The House,309,Asia
-Bookie,36,Asia
-Arbitrage,499,Asia
-Double Double,1498,Asia
-Explosive,752,Asia
-Black Cat,1434,Asia
-M-80,1188,Asia
-Smoke Bomb,113,Asia
-Amaretto,586,Asia
-Bacardi,1820,Asia
-Cognac,381,Asia
-Forever,1279,Asia
-Unstoppable,13,Asia
-Eternity,367,Asia
-Fanatic,9,Asia
-X-Treme,914,Asia
-Rabid,699,Asia
-Radical,340,Asia
-Kraken,94,Asia
-Lynch,234,Asia
-Mad Dog,483,Asia
-O'Doyle,1319,Asia
-Psycho,1351,Asia
-Ranger,1541,Asia
-Ratchet,1785,Asia
-Reaper,453,Asia
-Rigs,35,Asia
-Ripley,1385,Asia
-Roadkill,549,Asia
-Ronin,1642,Asia
-Rubble,969,Asia
-Sasquatch,721,Asia
-Scar,714,Asia
-Shiver,1320,Asia
-Skinner,1509,Asia
-Skull Crusher,206,Asia
-Slasher,161,Asia
-Steelshot,1588,Asia
-Surge,1604,Asia
-Sythe,1519,Asia
-Trip,1697,Asia
-Trooper,234,Asia
-Tweek,88,Asia
-Vein,188,Asia
-Void,845,Asia
-Wardon,1280,Asia
-Wraith,600,Asia
-Zero,1531,Asia
-Kevlar,363,Asia
-Bullet-Proof,1224,Asia
-Hurricane,344,Asia
-Tempest,917,Asia
-Pursuit,1837,Asia
-Uprising,111,Asia
-Sabotage,1200,Asia
-Rebellion,131,Asia
-Golem,925,Asia
-Hydra,1555,Asia
-Manticore,1563,Asia
-Minotaur,658,Asia
-Mothman,121,Asia
-Orthros,882,Asia
-Satyr,1406,Asia
-Furor,869,Asia
-Ire,1113,Asia
-Madness,1101,Asia
-Savage,995,Asia
-Mania,1914,Asia
-Atilla,1897,Asia
-Conqueror,1947,Asia
-Suleiman,1394,Asia
-Napoleon,1029,Asia
-Geronimo,615,Asia
-Dutch,1306,Asia
-Dux,123,Asia
-Jesse James,520,Asia
-X-Skull,1819,Asia
-Jawbone,544,Asia
-Skeleton,482,Asia
-Craniax,292,Asia
-Bone,494,Asia
-Cut,880,Asia
-Gash,135,Asia
-Scab,1913,Asia
-Annihilator,152,Asia
-Destroyer,1224,Africa
-Stabber,1681,Africa
-Hitter,1625,Africa
-Obliterator,1850,Africa
-Exterminator,1382,Africa
-Ruiner,1958,Africa
-Wildcat,1003,Africa
-Hellcat,52,Africa
-Tomcat,1355,Africa
-Panther,1225,Africa
-Jaguar,1324,Africa
-Bomber,69,Africa
-Strike Eagle,872,Africa
-Rimfire,1937,Africa
-Centerfire,31,Africa
-Power Train,1709,Africa
-Excavator,1285,Africa
-Shovel,1874,Africa
-Demise,789,Africa
-Grim,1696,Africa
-Menace,337,Africa
-Dementor,955,Africa
-Nightshade,312,Africa
-Venom,713,Africa
-The Unholy,1587,Africa
-Rot,987,Africa
-Omen,273,Africa
-Midnight,632,Africa
-Falchion,1902,Africa
-Zweihander,752,Africa
-Club,1945,Africa
-Maul,1018,Africa
-Bludgeon,1876,Africa
-Lance,637,Africa
-Tiger Claw,189,Africa
-Brass Knuckle,1139,Africa
-Gauntlet,1745,Africa
-Katar,472,Africa
-Dagger,330,Africa
-Gladius,1579,Africa
-Cutlass,8,Africa
-Scimitar,477,Africa
-Espada,1784,Africa
-Wolverine,1602,Africa
-Wolf,860,Africa
-Claw,1378,Africa
-Fang,1796,Africa
-Grip,1265,Africa
-Black Mamba,1556,Africa
-Goshawk,1225,Africa
-Majesty,469,Africa
-Malice,15,Africa
-Mannequin,1905,Africa
-Minx,1755,Africa
-Mirage,831,Africa
-Nightmare,572,Africa
-Nova,444,Africa
-Pumps,1975,Africa
-Raven,1398,Africa
-Resin,414,Africa
-Riveter,1272,Africa
-Rogue,935,Africa
-Roulette,842,Africa
-Shadow,837,Africa
-Siren,1271,Africa
-Stiletto,283,Africa
-Tattoo,705,Africa
-T-Back,317,Africa
-Temperance,153,Africa
-Tequila,1316,Africa
-Terror,1763,Africa
-Thunderbird,1632,Africa
-Ultra,1167,Africa
-Vanity,1039,Africa
-Velvet,671,Africa
-Vixen,229,Africa
-Voodoo,957,Africa
-Wicked,59,Africa
-Widow,1850,Africa
-Xenon,1225,Africa
-Teuta,1645,Africa
-Artemis,1097,Africa
-Atalanta,1767,Africa
-Athena,952,Africa
-Enyo,1664,Africa
-Bellona,1936,Africa
-White Tights,402,Africa
-Shieldmaiden,1048,Africa
-Valkyrie,720,Africa
-Cleo,1306,Africa
-Empress,711,Africa
-Baroness,531,Africa
-Beguile,626,Africa
-Crafty,1263,Africa
-Deceit,1552,Africa
-Waylay,1583,Africa
-Ambush,1767,Africa
-Feint,1932,Africa
-Catch-22,1291,Africa
-Puzzler,923,Africa
-Curio,193,Africa
-Prodigy,175,Africa
-Breach,730,Africa
-Miss Fortune,24,Africa
-Vex,1234,Africa
-Grudge,1953,Africa
-Enmity,1523,Africa
-Animus,641,Africa
-Hostility,1087,Africa
-Rancor,352,Africa
-Malevolence,728,Africa
-Poison,249,Africa
-Spite,692,Africa
-Spitefulness,1928,Africa
-Venom,129,Africa
-Baltimore,1680,Africa
-L.A.,546,Africa
-NYC,382,Africa
-Spirit,565,Africa
-Kelpie,1185,Africa
-Vamp,531,Africa
-Temptress,873,Africa
-Diviner,824,Africa
-Exorcist,1355,Africa
-Seer,174,Africa
-Blaser,445,Africa
-Glock,878,Africa
-Ruger,1210,Africa
-Tank,1110,Africa
-Torchy,821,Africa
-Trinity,1550,Africa
-Zoe,417,Africa
-Zen,1261,Africa
-Alyx,28,Africa
-Katniss,1297,Africa
-Linh,1111,Africa
-Polgara,1685,Africa
-Elektra,1673,Africa
-Catwoman,138,Africa
-Mercury,91,Africa
-Radon,839,Africa
-Radium,548,Africa
-Element,1552,Africa
-Elemental,1748,Africa
-Lab Rat,1773,Africa
-Acid,1593,Africa
-Atom,774,Africa
-Electron,282,Africa
-Atomic,1929,Africa
-Nuclear,1848,Africa
-Earth Metal,1691,Africa
-Nightshade,59,Africa
-Mercury,1369,Africa
-Cyanide,1735,Africa
-Toxin,1197,Africa
-Virus,939,Africa
-Arsenic,802,Africa
-Orb,885,Africa
-Astor,553,Africa
-Mortal,1675,Africa
-Snake Eyes,889,Africa
-High Roller,1179,Africa
-Pocket Rocket,1117,Africa
-Mojave,1204,Africa
-Bellagio,1569,Africa
-Nevada,817,Africa
-Reno,879,North America
-Steppe,448,North America
-Fishnet,670,North America
-Dagger,73,North America
-Grenade,502,North America
-Roman Candle,1638,North America
-Babylon Candle,1128,North America
-Missile,1916,North America
-Dom,326,North America
-Don,1152,North America
-Joose,1387,North America
-Revolution,1952,North America
-Sever,1209,North America
-Die-hard,1146,North America
-Zealot,539,North America
-Alien,467,North America
-Predator,1641,North America
-Barbarian,1322,North America
-Isis,709,North America
-Nefertiti,1591,North America
-Sekhmet,74,North America
-Ishtar,1158,North America
-Ashtart,49,North America
-Juno,1098,North America
-Tanit,676,North America
-Devi,262,North America
-Selkie,292,North America
-Venus,1040,North America
-Marquess,1374,North America
-Herzogin,135,North America
-Deviant,609,North America
-Variance,1471,North America
-Caprice,1942,North America
-Aberr,1337,North America
-Variant,671,North America
-Hero,775,North America
-Villain,1597,North America
-Daredevil,342,North America
-Mercenary,1014,North America
-Voyager,1996,North America
-Wanderer,1055,North America
-Audacity,928,North America
-Swagger,1539,North America
-Nerve,497,North America
-Egomania,1008,North America
-Scheme,1269,North America
-Paramour,1227,North America
-X-hibit,1123,North America
-Charade,466,North America
-Hauteur,193,North America
-Vainglory,1597,North America
-Narcissus,1583,North America
-Brass,1475,North America
-Crown Heights,1457,North America
-Dirty Dirty,1327,North America
-ATL,929,North America
-Spellbinder,1955,North America
-Jezebel,1215,North America
-Sorceress,1482,North America
-She-Devil,490,North America
-Hellcat,500,North America
-She-Wolf,1727,North America
-Madcap,786,North America
-Savage,1565,North America
-Seraphim,1034,North America
-Winchester,357,North America
-Hawkeye,61,North America
-Medusa,1590,North America
-Irons,1922,North America
-Storm,208,North America
-Jubilee,1366,North America
-Dazzler,1719,North America
-Aeryn,1022,North America
-Arya,1047,North America
-Ygritte,217,North America
-Bayonetta,1297,North America
-Sindel,654,North America
-Entropy,1311,North America
-Radioactive,1134,North America
-Radiate,1339,North America
-Ion,379,North America
-Eon,950,North America
-Photon,451,North America
-Redox,1074,North America
-Redux,492,North America
-Hot Salt,623,North America
-Vapor,1377,North America
-Volt,1742,North America
-X-Ray,1852,North America
-Immortal,1978,North America
-Meteor,1233,North America
-Comet,812,North America
-Protostar,1219,North America
-Medium,1855,North America
-Dark Matter,615,North America
-Hypernova,1197,North America
-Stratosphere,816,North America
-Supernova,439,North America
-Militant,252,North America
-Lock,570,North America
-The Money,424,North America
-Dice,55,North America
-Rocks,618,North America
-Watchface,1714,North America
-Big Time,1848,North America
-Two Face,154,North America
-Deep Pockets,689,North America
-Real Deal,1282,North America
-Pyro,1415,North America
-Gunpowder,618,North America
-Mortar,1863,North America
-Firebringer,464,North America
-Noir,951,North America
-Scotch,1675,North America
-Whiskey,427,North America
-Berserk,1893,North America
-Bitten,122,North America
-Corybantic,1108,North America
-Crazed,250,North America
-Delirious,1284,North America
-Agitator,1872,North America
-Maniac,1147,North America
-Coffy,875,North America
-Eowyn,1322,North America
-Croft,1311,North America
-Leeloo,923,North America
-Mathilda,149,North America
-Padme,500,North America
-Ramona,1756,North America
-Silk Spectre,1525,North America
-Helium,976,North America
-Beryllium,184,North America
-Neon,1749,North America
-Phosphorus,752,North America
-Phosphorescent,1033,North America
-Illumine,433,North America
-Chromium,1,North America
-Arsenic,302,North America
-Zinc,1215,North America
-Selenium,186,North America
-Xenon,527,North America
-Osmium,765,North America
-Fox,202,North America
-Coyote,1942,North America
-Crow,763,North America
-Spider,694,North America
-Bat,1835,North America
-Serpent,426,North America
-Satyr,975,North America
-Oleander,901,North America
-Hemlock,830,North America
-Vegas,1656,South America
-Blackjack,1590,South America
-Baccarat,326,South America
-Red Dog,1917,South America
-Poker,153,South America
-Keno,459,South America
-The House,1752,South America
-Bookie,1390,South America
-Arbitrage,1509,South America
-Double Double,1889,South America
-Explosive,1457,South America
-Black Cat,1629,South America
-M-80,1554,South America
-Smoke Bomb,1996,South America
-Amaretto,1598,South America
-Bacardi,452,South America
-Cognac,1223,South America
-Forever,1788,South America
-Unstoppa,725,South America
-Bookie,1558,South America
-Arbitrage,1468,South America
-Double Double,457,South America
-Explosive,473,South America
-Black Cat,1211,South America
-M-80,416,South America
-Smoke Bomb,1322,South America
-Amaretto,1433,South America
-Bacardi,1045,South America
-Cognac,118,South America
-Forever,656,South America
-Unstoppable,1718,South America
-Eternity,1346,South America
-Fanatic,62,South America
-X-Treme,287,South America
-Rabid,526,South America
-Radical,810,South America
-Kraken,1307,South America
-Lynch,205,South America
-Mad Dog,1994,South America
-O'Doyle,1400,South America
-Psycho,582,South America
-Ranger,1539,South America
-Ratchet,1632,South America
-Reaper,1798,South America
-Rigs,606,South America
-Ripley,1153,South America
-Roadkill,534,South America
-Ronin,449,South America
-Rubble,521,South America
-Sasquatch,1101,South America
-Scar,260,South America
-Shiver,747,South America
-Skinner,652,South America
-Skull Crusher,1131,South America
-Slasher,340,South America
-Steelshot,1151,South America
-Surge,627,South America
-Sythe,1097,South America
-Trip,1801,South America
-Trooper,799,South America
-Tweek,1822,South America
-Vein,1185,South America
-Void,857,South America
-Wardon,1305,South America
-Wraith,1017,South America
-Zero,386,South America
-Kevlar,809,South America
-Bullet-Proof,440,South America
-Hurricane,1798,South America
-Tempest,1896,South America
-Pursuit,211,South America
-Uprising,263,South America
-Sabotage,1304,South America
-Rebellion,1639,South America
-Golem,1014,South America
-Hydra,1280,South America
-Manticore,30,South America
-Minotaur,1927,South America
-Mothman,107,South America
-Orthros,675,South America
-Satyr,171,South America
-Furor,1753,South America
-Ire,1855,South America
-Madness,818,South America
-Savage,1486,South America
-Mania,1992,South America
-Atilla,834,South America
-Conqueror,1721,South America
-Suleiman,195,South America
-Napoleon,1931,South America
-Geronimo,1754,South America
-Dutch,203,South America
-Dux,197,South America
-Jesse James,1271,South America
-X-Skull,1140,South America
+Aspect,1301,Europe,xboxOne
+Bender,239,Europe,PC
+Big Papa,1594,Africa,PC
+Bowser,1796,North America,xboxOne
+Bruise,342,Africa,PS4
+Cannon,1982,Asia,PS4
+Clink,671,North America,Mobile
+Cobra,229,Asia,xboxOne
+Colt,1481,North America,PC
+Crank,1162,North America,xboxOne
+Creep,815,Africa,PC
+Daemon,756,Asia,PC
+Decay,1506,Asia,xboxOne
+Diablo,1062,Africa,Mobile
+Doom,1624,Asia,xboxOne
+Dracula,1800,Asia,xboxOne
+Dragon,134,Europe,PC
+Fender,918,South America,Mobile
+Fester,299,Europe,PS4
+Fisheye,1867,Europe,PS4
+Flack,1183,North America,PS4
+Gargoyle,520,Asia,PS4
+Grave,763,Asia,PC
+Gunner,771,North America,Mobile
+Hash,1457,Africa,PC
+Hashtag,590,South America,PC
+Indominus,1434,North America,PC
+Ironclad,933,South America,Mobile
+Killer,492,Africa,xboxOne
+Knuckles,1912,Asia,xboxOne
+Steel,551,Asia,PC
+Tito,1335,Asia,Mobile
+Titanium,1167,Africa,Mobile
+Iron-Cut,329,Asia,PS4
+Steel Forge,1516,Asia,Mobile
+Upsurge,397,North America,PS4
+Breaker,479,Europe,PC
+Subversion,1598,Europe,PS4
+Loch,363,Africa,PS4
+Rex,1031,South America,Mobile
+Balrog,177,South America,PS4
+Basilisk,679,South America,Mobile
+Cerberus,519,South America,PS4
+Charybdis,593,Europe,PS4
+Cyclops,1921,North America,PC
+Ballistic,1562,Asia,Mobile
+Fury,1262,Africa,PS4
+Wrath,673,Europe,xboxOne
+Rage,1976,Africa,PC
+Frenzy,1358,South America,Mobile
+V,26,North America,PS4
+Terminator,1613,South America,Mobile
+Siddhartha,1528,Europe,PS4
+Thor,817,Europe,PC
+Khan,1974,North America,PC
+Leonidas,52,South America,PS4
+Hannibal,1229,Asia,Mobile
+Agrippa,280,South America,Mobile
+Bleed,1821,North America,xboxOne
+Nail,713,Africa,PC
+Fist,1884,North America,PC
+Tooth,1726,Europe,PC
+K-9,297,Asia,PC
+Kneecap,1906,North America,xboxOne
+Soleus,618,Asia,Mobile
+Blood,1663,Europe,Mobile
+Wracker,552,Europe,PS4
+Wrecker,121,Africa,Mobile
+Clencher,1235,South America,xboxOne
+Masher,587,North America,Mobile
+Crusher,423,Europe,xboxOne
+Slammer,1384,Asia,PC
+Thrasher,515,Asia,xboxOne
+Torpedo,470,Asia,xboxOne
+Cannon,435,Africa,PS4
+Mortar,231,South America,Mobile
+Siege,1548,Europe,PS4
+Bullet,299,Asia,PC
+Aero,737,South America,PC
+Albatross,358,Asia,PC
+Arsenal,280,South America,PS4
+Hornet,1422,Africa,PC
+Demolition,24,Asia,PC
+Chainsaw,1670,South America,PC
+Wrench,1072,North America,PC
+Terror,1335,North America,PC
+Freak,965,Africa,PC
+Axe,770,Africa,xboxOne
+Axe-man,1103,North America,Mobile
+Executioner,757,South America,PS4
+Hollowman,966,Asia,Mobile
+Garrot,1364,Africa,xboxOne
+Abyss,573,Europe,xboxOne
+Chasm,642,Africa,Mobile
+Ghoul,1462,Asia,PC
+Mace,1025,Europe,PS4
+Battleaxe,817,Africa,PC
+Billhook,1470,Europe,PC
+Caltrop,513,Asia,xboxOne
+Longbow,933,Europe,xboxOne
+Crossbow,1124,Europe,Mobile
+Pike,1133,Africa,PC
+Poleaxe,49,Europe,PC
+Quarterstaff,1089,North America,PC
+War Hammer,1814,Asia,Mobile
+Spear,323,Asia,xboxOne
+Katana,1550,Africa,PS4
+Saber,224,Europe,PC
+Broadsword,791,Asia,Mobile
+Claymore,1427,Asia,Mobile
+Grizzly,436,Europe,PS4
+Snake,1189,South America,PS4
+Vulture,1442,Europe,PC
+Falcon,728,North America,Mobile
+Ram,66,South America,PC
+Boar,1706,Africa,PS4
+Tusk,120,Africa,PC
+Amazon,322,Africa,xboxOne
+Anomoly,1656,South America,PS4
+Banshee,142,South America,xboxOne
+Belladonna,210,Africa,xboxOne
+Beretta,1941,Africa,PC
+Black Beauty,221,Africa,xboxOne
+Calypso,407,South America,xboxOne
+Carbon,786,Asia,PC
+Cascade,1048,Asia,Mobile
+Colada,1275,North America,Mobile
+Cosma,270,Europe,PC
+Cougar,282,Europe,Mobile
+Countess,1240,Europe,PC
+Enchantress,1011,South America,Mobile
+Enigma,117,South America,PS4
+Femme Fatale,1834,South America,xboxOne
+Firecracker,72,North America,xboxOne
+Geisha,842,Asia,PS4
+Goddess,861,South America,PS4
+Half Pint,150,Africa,xboxOne
+Harlem,726,South America,Mobile
+Heroin,1882,South America,xboxOne
+Infinity,907,South America,xboxOne
+Insomnia,1097,Europe,PC
+Ivy,939,North America,xboxOne
+Legacy,529,Europe,PS4
+Lithium,97,South America,PS4
+Lolita,1183,South America,PS4
+Lotus,269,South America,xboxOne
+Mademoiselle,851,Europe,Mobile
+Kahina,1873,South America,xboxOne
+Dihya,1760,Africa,xboxOne
+Running Eagle,1103,South America,Mobile
+Colestah,389,Asia,PC
+Calamity Jane,1640,Europe,Mobile
+Pearl Heart,453,Europe,PC
+Belle Starr,1950,Asia,PC
+Hua Mulan,263,Europe,PC
+Boudica,160,North America,xboxOne
+Medb,1658,Asia,PC
+Madam,1245,Asia,Mobile
+Duchess,1528,Asia,PS4
+Fate,287,South America,PC
+Illusion,1788,South America,Mobile
+Delusion,337,North America,PS4
+Deception,1206,South America,xboxOne
+Myth,943,Europe,PC
+Daydream,773,South America,PS4
+Night Terror,1410,South America,PS4
+Figment,1902,Africa,PS4
+Virtual,1596,Europe,xboxOne
+Chicanery,1604,North America,PC
+Trick,405,South America,PC
+Vile,1877,Asia,Mobile
+Horror,1655,South America,PC
+Dismay,633,Asia,Mobile
+Phobia,1313,Asia,PC
+Fright,108,North America,PS4
+Panic,705,Asia,PC
+Agony,541,Africa,xboxOne
+Inferno,1605,Asia,Mobile
+Blaze,921,North America,PS4
+Crucible,147,North America,xboxOne
+Haunter,477,Africa,PS4
+Bane,1803,North America,PS4
+Camden,647,Europe,Mobile
+Detroit,1669,North America,Mobile
+McKinley,1157,Europe,PC
+Fiend,535,South America,Mobile
+Goblin,1392,Asia,Mobile
+Oracle,1698,South America,PS4
+Soul,1963,Africa,PS4
+Revenant,1210,North America,PS4
+Poltergeist,1067,Asia,Mobile
+Zombie,1178,Asia,Mobile
+Armor,1820,Europe,PS4
+Benelli,112,Africa,Mobile
+Remington,1361,Europe,Mobile
+Aeon,35,South America,Mobile
+Kiddo,1696,Asia,Mobile
+Buffy,167,Africa,Mobile
+Coffy,975,South America,xboxOne
+Eowyn,1154,South America,Mobile
+Croft,676,South America,xboxOne
+Leeloo,149,North America,xboxOne
+Mathilda,1296,Europe,PS4
+Padme,235,South America,PC
+Ramona,858,Europe,PC
+Silk Spectre,420,Asia,PC
+Helium,1428,South America,PS4
+Beryllium,932,North America,PS4
+Neon,1842,North America,Mobile
+Phosphorus,782,Asia,xboxOne
+Phosphorescent,320,Asia,Mobile
+Illumine,1546,North America,xboxOne
+Chromium,268,South America,xboxOne
+Arsenic,1391,Europe,PC
+Zinc,1019,Europe,PC
+Selenium,700,Europe,PC
+Xenon,51,Asia,Mobile
+Osmium,1300,Africa,Mobile
+Fox,1155,South America,PC
+Coyote,67,Asia,PC
+Crow,673,Asia,Mobile
+Spider,1138,North America,PC
+Bat,1261,South America,Mobile
+Serpent,1614,South America,PS4
+Satyr,1390,Africa,Mobile
+Oleander,1911,South America,xboxOne
+Hemlock,65,Asia,xboxOne
+Vegas,1587,Europe,PC
+Blackjack,1082,Europe,PC
+Baccarat,413,South America,xboxOne
+Red Dog,1396,Europe,PS4
+Poker,327,Europe,PC
+Keno,192,Europe,Mobile
+The House,1002,Europe,PS4
+Bookie,1487,North America,Mobile
+Arbitrage,814,Europe,PS4
+Double Double,1648,South America,xboxOne
+Explosive,1968,Europe,PS4
+Black Cat,267,South America,Mobile
+M-80,507,Africa,Mobile
+Smoke Bomb,705,Asia,xboxOne
+Amaretto,1121,Europe,PS4
+Bacardi,1316,Africa,PC
+Cognac,253,Europe,Mobile
+Forever,545,Europe,PS4
+Unstoppable,135,North America,xboxOne
+Eternity,992,South America,Mobile
+Fanatic,768,South America,PC
+X-Treme,230,North America,Mobile
+Rabid,805,Asia,xboxOne
+Radical,1621,Asia,PC
+Kraken,1984,South America,PC
+Lynch,123,Africa,PS4
+Mad Dog,461,South America,xboxOne
+O'Doyle,737,Asia,PC
+Psycho,1199,Africa,PS4
+Ranger,969,South America,xboxOne
+Ratchet,1765,North America,PC
+Reaper,1277,Africa,PC
+Rigs,966,North America,PC
+Ripley,825,South America,PC
+Roadkill,859,North America,PC
+Ronin,628,Europe,xboxOne
+Rubble,1430,Europe,PC
+Sasquatch,1021,South America,xboxOne
+Scar,736,South America,Mobile
+Shiver,1815,South America,Mobile
+Skinner,920,Asia,xboxOne
+Skull Crusher,1755,Africa,Mobile
+Slasher,1094,Africa,xboxOne
+Steelshot,88,Asia,PC
+Surge,1791,South America,Mobile
+Sythe,709,South America,PS4
+Trip,1206,Asia,Mobile
+Trooper,1873,South America,Mobile
+Tweek,1188,Europe,PS4
+Vein,165,Asia,PC
+Void,1953,Europe,PC
+Wardon,1551,Europe,PC
+Wraith,1631,South America,Mobile
+Zero,1209,North America,PC
+Kevlar,1105,South America,PC
+Bullet-Proof,1547,Asia,xboxOne
+Hurricane,993,South America,PC
+Tempest,1222,North America,xboxOne
+Pursuit,295,Asia,xboxOne
+Uprising,1744,South America,Mobile
+Sabotage,663,Africa,PC
+Rebellion,994,Europe,PC
+Golem,1908,Asia,PC
+Hydra,1921,North America,PS4
+Manticore,275,North America,PC
+Minotaur,214,North America,xboxOne
+Mothman,1508,North America,xboxOne
+Orthros,1052,Africa,PC
+Satyr,736,South America,PS4
+Furor,383,Asia,PC
+Ire,1173,South America,PC
+Madness,581,Asia,xboxOne
+Savage,386,North America,PC
+Mania,1592,North America,PC
+Atilla,1493,Asia,PC
+Conqueror,510,Europe,PS4
+Suleiman,1355,South America,xboxOne
+Napoleon,1431,North America,xboxOne
+Geronimo,1259,Asia,PC
+Dutch,426,Asia,PC
+Dux,669,Asia,PC
+Jesse James,412,Europe,PS4
+X-Skull,260,Europe,xboxOne
+Jawbone,909,North America,PS4
+Skeleton,182,Europe,xboxOne
+Craniax,1970,Africa,Mobile
+Bone,957,South America,PS4
+Cut,859,South America,xboxOne
+Gash,229,North America,PC
+Scab,1075,North America,Mobile
+Annihilator,1243,South America,Mobile
+Destroyer,457,Europe,PC
+Stabber,1100,Europe,Mobile
+Hitter,1596,Africa,PS4
+Obliterator,962,Africa,Mobile
+Exterminator,1961,Africa,PS4
+Ruiner,173,South America,PC
+Wildcat,1564,Europe,PS4
+Hellcat,343,South America,PS4
+Tomcat,811,South America,PC
+Panther,1563,Europe,PS4
+Jaguar,216,Asia,PC
+Bomber,1733,Europe,PS4
+Strike Eagle,771,South America,Mobile
+Rimfire,1502,Asia,PC
+Centerfire,1801,South America,PS4
+Power Train,1926,South America,PS4
+Excavator,1806,South America,xboxOne
+Shovel,1133,South America,Mobile
+Demise,904,Asia,Mobile
+Grim,1171,Asia,xboxOne
+Menace,280,South America,PS4
+Dementor,1668,Africa,PC
+Nightshade,521,Europe,xboxOne
+Venom,1515,South America,Mobile
+The Unholy,406,North America,PS4
+Rot,329,South America,Mobile
+Omen,544,South America,xboxOne
+Midnight,1130,North America,PS4
+Falchion,467,Africa,xboxOne
+Zweihander,857,North America,PC
+Club,859,Africa,xboxOne
+Maul,1324,Europe,xboxOne
+Bludgeon,239,South America,Mobile
+Lance,1244,Asia,Mobile
+Tiger Claw,1915,Europe,Mobile
+Brass Knuckle,931,Asia,Mobile
+Gauntlet,1722,Africa,Mobile
+Katar,1887,Europe,PS4
+Dagger,691,Africa,PC
+Gladius,1485,Asia,xboxOne
+Cutlass,1535,North America,PS4
+Scimitar,1400,South America,xboxOne
+Espada,1452,South America,Mobile
+Wolverine,754,Africa,PS4
+Wolf,1842,North America,Mobile
+Claw,681,North America,Mobile
+Fang,1712,North America,xboxOne
+Grip,686,North America,PS4
+Black Mamba,1737,Europe,xboxOne
+Goshawk,1635,South America,PC
+Majesty,809,Europe,PC
+Malice,1823,North America,PC
+Mannequin,196,Asia,xboxOne
+Minx,1486,South America,xboxOne
+Mirage,1478,Europe,xboxOne
+Nightmare,700,Europe,PS4
+Nova,1978,North America,PS4
+Pumps,977,North America,Mobile
+Raven,922,Asia,xboxOne
+Resin,371,Africa,PC
+Riveter,1293,North America,PS4
+Rogue,115,South America,xboxOne
+Roulette,1437,Africa,Mobile
+Shadow,1229,Europe,Mobile
+Siren,411,South America,Mobile
+Stiletto,22,Europe,PS4
+Tattoo,194,Africa,Mobile
+T-Back,438,South America,xboxOne
+Temperance,97,Europe,PC
+Tequila,1932,North America,Mobile
+Terror,611,Europe,PC
+Thunderbird,1393,South America,PS4
+Ultra,1933,Europe,PS4
+Vanity,1686,Asia,PC
+Velvet,785,Asia,xboxOne
+Vixen,604,North America,xboxOne
+Voodoo,130,South America,xboxOne
+Wicked,2000,Europe,PS4
+Widow,11,South America,xboxOne
+Xenon,1698,South America,PC
+Teuta,390,Asia,PS4
+Artemis,957,Asia,PS4
+Atalanta,945,South America,PS4
+Athena,939,Europe,PC
+Enyo,1052,Asia,Mobile
+Bellona,1769,Europe,xboxOne
+White Tights,1719,Africa,xboxOne
+Shieldmaiden,492,South America,Mobile
+Valkyrie,1112,Asia,xboxOne
+Cleo,1392,South America,Mobile
+Empress,1374,Asia,PS4
+Baroness,1719,Africa,PC
+Beguile,1730,Europe,Mobile
+Crafty,1711,Europe,xboxOne
+Deceit,564,Africa,xboxOne
+Waylay,1496,Africa,Mobile
+Ambush,1294,North America,Mobile
+Feint,923,Asia,xboxOne
+Catch-22,334,Europe,Mobile
+Puzzler,1441,North America,Mobile
+Curio,1589,Asia,Mobile
+Prodigy,567,North America,xboxOne
+Breach,1616,North America,Mobile
+Miss Fortune,997,Europe,Mobile
+Vex,246,Asia,PS4
+Grudge,1651,North America,PC
+Enmity,1835,Asia,PS4
+Animus,1855,Africa,PS4
+Hostility,1737,Asia,PC
+Rancor,1374,Africa,Mobile
+Malevolence,870,Europe,PS4
+Poison,1662,South America,xboxOne
+Spite,1802,Asia,Mobile
+Spitefulness,1884,South America,Mobile
+Venom,888,Africa,Mobile
+Baltimore,1567,Africa,xboxOne
+L.A.,697,North America,xboxOne
+NYC,1435,North America,Mobile
+Spirit,433,Asia,xboxOne
+Kelpie,1711,North America,PC
+Vamp,286,Africa,PS4
+Temptress,884,Asia,PC
+Diviner,1670,North America,PS4
+Exorcist,798,North America,Mobile
+Seer,766,Africa,Mobile
+Blaser,25,Europe,xboxOne
+Glock,285,North America,PS4
+Ruger,556,North America,Mobile
+Tank,324,South America,xboxOne
+Torchy,1181,Europe,PS4
+Trinity,1463,Europe,PC
+Zoe,395,Asia,Mobile
+Zen,880,Asia,xboxOne
+Alyx,754,Africa,xboxOne
+Katniss,572,Africa,Mobile
+Linh,1413,North America,Mobile
+Polgara,1916,South America,PC
+Elektra,783,South America,PS4
+Catwoman,84,Africa,Mobile
+Mercury,1289,Africa,PC
+Radon,238,North America,PC
+Radium,380,South America,PS4
+Element,1608,Asia,Mobile
+Elemental,612,South America,PC
+Lab Rat,914,South America,xboxOne
+Acid,81,Africa,xboxOne
+Atom,285,South America,Mobile
+Electron,1529,North America,Mobile
+Atomic,430,North America,xboxOne
+Nuclear,792,Europe,PS4
+Earth Metal,311,Asia,PC
+Nightshade,1667,North America,xboxOne
+Mercury,90,South America,xboxOne
+Cyanide,308,South America,PC
+Toxin,146,North America,PC
+Virus,438,North America,Mobile
+Arsenic,657,Asia,Mobile
+Orb,1583,Africa,PS4
+Astor,1919,North America,PC
+Mortal,43,South America,PS4
+Snake Eyes,5,South America,xboxOne
+High Roller,579,South America,xboxOne
+Pocket Rocket,1070,South America,PC
+Mojave,239,Africa,PC
+Bellagio,913,South America,Mobile
+Nevada,604,Asia,xboxOne
+Reno,1073,Asia,PC
+Steppe,261,South America,PS4
+Fishnet,984,South America,PC
+Dagger,710,Europe,PS4
+Grenade,456,North America,Mobile
+Roman Candle,290,North America,xboxOne
+Babylon Candle,679,Africa,PC
+Missile,1162,North America,xboxOne
+Dom,40,Asia,Mobile
+Don,1532,Europe,PS4
+Joose,1329,North America,xboxOne
+Revolution,1512,Asia,PC
+Sever,1414,North America,PS4
+Die-hard,168,Africa,PC
+Zealot,777,Europe,xboxOne
+Alien,1688,South America,xboxOne
+Predator,999,Africa,PS4
+Barbarian,1363,Europe,PS4
+Isis,1738,Asia,PC
+Nefertiti,1015,Asia,PS4
+Sekhmet,563,Europe,PC
+Ishtar,197,Europe,Mobile
+Ashtart,1915,North America,Mobile
+Juno,1420,North America,Mobile
+Tanit,767,North America,PS4
+Devi,1423,Africa,xboxOne
+Selkie,1589,South America,xboxOne
+Venus,1493,Asia,xboxOne
+Marquess,486,Europe,PC
+Herzogin,841,Europe,Mobile
+Deviant,73,Asia,xboxOne
+Variance,124,Africa,PS4
+Caprice,1662,North America,PS4
+Aberr,1798,Africa,PC
+Variant,53,Europe,Mobile
+Hero,356,Asia,PS4
+Villain,913,South America,Mobile
+Daredevil,1946,Africa,xboxOne
+Mercenary,1933,South America,Mobile
+Voyager,304,Europe,PS4
+Wanderer,1372,Africa,Mobile
+Audacity,1596,Asia,xboxOne
+Swagger,1715,Europe,xboxOne
+Nerve,1161,Europe,Mobile
+Egomania,613,South America,PC
+Scheme,1414,Europe,Mobile
+Paramour,456,Asia,PC
+X-hibit,654,North America,xboxOne
+Charade,703,Asia,xboxOne
+Hauteur,577,Asia,Mobile
+Vainglory,1258,Asia,Mobile
+Narcissus,1817,Africa,Mobile
+Brass,1260,Europe,PS4
+Crown Heights,189,North America,PC
+Dirty Dirty,300,Europe,PC
+ATL,1832,North America,xboxOne
+Spellbinder,1790,Africa,PC
+Jezebel,1859,Europe,Mobile
+Sorceress,1694,North America,xboxOne
+She-Devil,1673,North America,PS4
+Hellcat,1943,Asia,PC
+She-Wolf,453,Europe,PC
+Madcap,1513,South America,PC
+Savage,565,South America,xboxOne
+Seraphim,926,Africa,Mobile
+Winchester,68,North America,xboxOne
+Hawkeye,1094,Africa,PC
+Medusa,974,North America,Mobile
+Irons,422,Africa,Mobile
+Storm,319,North America,PC
+Jubilee,231,North America,PC
+Dazzler,256,Europe,Mobile
+Aeryn,1867,Africa,xboxOne
+Arya,913,Africa,xboxOne
+Ygritte,1020,South America,PS4
+Bayonetta,543,Asia,PS4
+Sindel,1536,North America,PS4
+Entropy,1460,Africa,PS4
+Radioactive,419,South America,PC
+Radiate,1150,Asia,PC
+Ion,684,South America,xboxOne
+Eon,916,Europe,Mobile
+Photon,185,North America,Mobile
+Redox,983,South America,PS4
+Redux,970,Europe,PS4
+Hot Salt,1153,Asia,Mobile
+Vapor,1468,Europe,PC
+Volt,1818,Africa,xboxOne
+X-Ray,1188,Asia,Mobile
+Immortal,1206,Europe,PC
+Meteor,901,Europe,PS4
+Comet,1380,Asia,xboxOne
+Protostar,1071,North America,PC
+Medium,770,South America,PS4
+Dark Matter,46,South America,Mobile
+Hypernova,719,Africa,PC
+Stratosphere,1344,Europe,PC
+Supernova,1234,Africa,xboxOne
+Militant,1019,Europe,Mobile
+Lock,1563,Asia,PS4
+The Money,534,Africa,PS4
+Dice,431,Africa,Mobile
+Rocks,1733,South America,Mobile
+Watchface,1485,North America,xboxOne
+Big Time,742,South America,PS4
+Two Face,1124,Asia,PC
+Deep Pockets,342,North America,PS4
+Real Deal,743,Europe,PS4
+Pyro,1724,Asia,PS4
+Gunpowder,308,Asia,xboxOne
+Mortar,1081,Asia,PS4
+Firebringer,611,Africa,Mobile
+Noir,578,Europe,PC
+Scotch,1412,Europe,PS4
+Whiskey,371,North America,PS4
+Berserk,226,South America,PC
+Bitten,956,Europe,PC
+Corybantic,1501,North America,PC
+Crazed,1381,North America,PS4
+Delirious,428,Africa,xboxOne
+Agitator,1408,South America,Mobile
+Maniac,1118,Africa,xboxOne
+Coffy,1272,South America,xboxOne
+Eowyn,135,Africa,Mobile
+Croft,1656,Africa,Mobile
+Leeloo,1446,South America,Mobile
+Mathilda,295,North America,Mobile
+Padme,1392,South America,Mobile
+Ramona,871,Africa,PS4
+Silk Spectre,694,Europe,PC
+Helium,789,Africa,PC
+Beryllium,1698,Europe,PS4
+Neon,1996,Africa,xboxOne
+Phosphorus,1527,Africa,Mobile
+Phosphorescent,922,South America,xboxOne
+Illumine,838,Europe,xboxOne
+Chromium,1728,Asia,PS4
+Arsenic,1274,South America,Mobile
+Zinc,1142,South America,PC
+Selenium,1776,North America,PS4
+Xenon,327,Europe,xboxOne
+Osmium,1289,Asia,PS4
+Fox,839,Asia,xboxOne
+Coyote,1255,North America,Mobile
+Crow,397,South America,PC
+Spider,1889,Africa,PC
+Bat,409,South America,PS4
+Serpent,182,South America,Mobile
+Satyr,17,Asia,xboxOne
+Oleander,1702,Asia,PC
+Hemlock,162,North America,PC
+Vegas,1727,Asia,Mobile
+Blackjack,953,Europe,Mobile
+Baccarat,169,Asia,PC
+Red Dog,506,Europe,xboxOne
+Poker,954,Asia,Mobile
+Keno,1828,Europe,PS4
+The House,839,Europe,PC
+Bookie,1061,South America,PS4
+Arbitrage,584,North America,PC
+Double Double,1719,South America,PC
+Explosive,1594,Europe,xboxOne
+Black Cat,828,Europe,Mobile
+M-80,770,Africa,PS4
+Smoke Bomb,281,North America,PS4
+Amaretto,1711,South America,xboxOne
+Bacardi,283,North America,PS4
+Cognac,1775,Africa,Mobile
+Forever,840,Africa,Mobile
+Unstoppa,1536,Europe,PS4
+Bookie,132,South America,PC
+Arbitrage,1283,South America,PC
+Double Double,917,Europe,Mobile
+Explosive,1536,Europe,Mobile
+Black Cat,233,South America,Mobile
+M-80,351,South America,PS4
+Smoke Bomb,1126,Europe,Mobile
+Amaretto,845,South America,PS4
+Bacardi,1744,South America,PS4
+Cognac,1434,South America,xboxOne
+Forever,1141,South America,PS4
+Unstoppable,1439,North America,Mobile
+Eternity,1727,North America,PC
+Fanatic,1416,Europe,Mobile
+X-Treme,44,Europe,Mobile
+Rabid,1982,North America,xboxOne
+Radical,1029,South America,xboxOne
+Kraken,630,Europe,Mobile
+Lynch,1170,North America,Mobile
+Mad Dog,1811,North America,Mobile
+O'Doyle,1626,North America,PS4
+Psycho,648,South America,Mobile
+Ranger,227,Asia,PS4
+Ratchet,1241,Africa,xboxOne
+Reaper,863,South America,PS4
+Rigs,1738,South America,PS4
+Ripley,412,Europe,Mobile
+Roadkill,1653,Europe,xboxOne
+Ronin,674,Europe,Mobile
+Rubble,1218,South America,Mobile
+Sasquatch,729,Africa,PS4
+Scar,1110,Asia,Mobile
+Shiver,1611,Europe,PS4
+Skinner,643,North America,PC
+Skull Crusher,1919,North America,Mobile
+Slasher,213,North America,PC
+Steelshot,731,Asia,PS4
+Surge,1152,South America,Mobile
+Sythe,1778,North America,PS4
+Trip,444,Africa,Mobile
+Trooper,815,Asia,PC
+Tweek,786,Africa,PC
+Vein,1715,North America,PS4
+Void,1204,North America,PC
+Wardon,605,Europe,Mobile
+Wraith,409,Africa,Mobile
+Zero,1775,North America,Mobile
+Kevlar,28,Asia,PC
+Bullet-Proof,161,North America,Mobile
+Hurricane,1495,Africa,Mobile
+Tempest,394,North America,PS4
+Pursuit,860,Europe,xboxOne
+Uprising,1173,Asia,Mobile
+Sabotage,1024,Asia,PS4
+Rebellion,817,Europe,xboxOne
+Golem,908,Africa,xboxOne
+Hydra,1853,Europe,xboxOne
+Manticore,1272,Asia,PS4
+Minotaur,1123,Asia,xboxOne
+Mothman,998,Europe,Mobile
+Orthros,1653,South America,xboxOne
+Satyr,1187,Europe,xboxOne
+Furor,109,Africa,PC
+Ire,846,Europe,xboxOne
+Madness,926,Europe,PC
+Savage,1317,Europe,PS4
+Mania,988,Asia,Mobile
+Atilla,1704,North America,Mobile
+Conqueror,36,Asia,Mobile
+Suleiman,1048,South America,PS4
+Napoleon,808,Europe,Mobile
+Geronimo,1820,North America,PC
+Dutch,470,Asia,PC
+Dux,1121,North America,xboxOne
+Jesse James,1369,Europe,Mobile
+X-Skull,1,South America,Mobile

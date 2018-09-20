@@ -1,10 +1,13 @@
 package model;
 
 import java.io.IOException;
+import java.io.Serializable;
 import java.net.InetAddress;
 import java.util.Timer;
 
-public class Ping {
+public class Ping  implements Serializable{
+
+	
 	private String stateConnection;
 
 	public Ping() {

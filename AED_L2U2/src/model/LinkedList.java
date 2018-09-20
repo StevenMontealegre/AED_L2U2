@@ -1,9 +1,10 @@
 package model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 // This is a alternative data structure to counteract collisions
-public class LinkedList {
+public class LinkedList implements Serializable{
 
 	private Score first;
 

@@ -58,7 +58,7 @@
                                     <DropShadow />
                                  </effect>
                               </ImageView>
-                              <VBox layoutX="175.0" layoutY="531.0" prefHeight="289.0" prefWidth="318.0" spacing="40.0">
+                              <VBox layoutY="440.0" prefHeight="289.0" prefWidth="318.0" spacing="40.0">
                                  <children>
                                     <Label text="Label" />
                                     <Button fx:id="expandBut" mnemonicParsing="false" onAction="#expand" text="Expand slot" />
@@ -66,6 +66,7 @@
                                     <Button fx:id="selectBut" mnemonicParsing="false" text="Select player and search mates" />
                                  </children>
                               </VBox>
+                              <Button fx:id="backBut" layoutX="37.0" layoutY="742.0" mnemonicParsing="false" onAction="#goBack" prefHeight="46.0" prefWidth="179.0" text="Go back to main menu" />
                            </children>
                         </AnchorPane>
                      </children>

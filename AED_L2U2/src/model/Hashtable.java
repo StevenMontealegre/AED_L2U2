@@ -1,8 +1,9 @@
 package model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Hashtable {
+public class Hashtable implements Serializable {
 	public final static Integer size = 199;
 	private Score[] table;
 	private int numElements;
@@ -14,7 +15,7 @@ public class Hashtable {
 	
 	public Hashtable() {
 		table2 = new LinkedList[size];
-		setTable(new Score[size]);
+		//setTable(new Score[size]);
 		setNumElements(0);
 		setCollisionsNumber(0);
 

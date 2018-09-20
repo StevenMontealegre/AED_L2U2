@@ -1,5 +1,6 @@
 package view;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -32,7 +33,7 @@ public class Main extends Application {
 	}
 	
 	@Override
-	public void start(Stage primaryStage) throws IOException, InterruptedException {
+	public void start(Stage primaryStage) throws IOException, InterruptedException, ClassNotFoundException {
 		
 		fortnite = new Fornite(this);
 		this.primaryStage = primaryStage;
@@ -112,6 +113,12 @@ public class Main extends Application {
 	{
 		String weaponCatched = fortnite.catchWeapon();
 		return weaponCatched;
+	}
+	
+	
+	public static void saveHashTable() throws FileNotFoundException, IOException
+	{
+		fortnite.save();
 	}
 	
 	

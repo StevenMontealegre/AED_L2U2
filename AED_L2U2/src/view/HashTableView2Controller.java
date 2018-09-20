@@ -1,5 +1,6 @@
 package view;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -31,6 +32,9 @@ public class HashTableView2Controller implements Initializable{
 
 	
 	@FXML
+	private Button backBut;
+	
+	@FXML
 	private void expand()
 	{
 		int a = slotsView.getSelectionModel().getSelectedIndex();
@@ -52,6 +56,15 @@ public class HashTableView2Controller implements Initializable{
 		nodesView.setItems(scoresview);
 	
 	
+	}
+	
+	@FXML
+	private void goBack() throws IOException
+	{
+		System.out.println("Controller class ");
+
+		main.showMainMenu();
+	//	main.saveHashTable();
 	}
 	
 	

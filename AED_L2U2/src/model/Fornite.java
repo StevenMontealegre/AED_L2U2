@@ -2,15 +2,21 @@ package model;
 
 import java.util.ArrayList;
 
+
 import view.Main;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 
-public class Fornite<T> {
+public class Fornite<T> implements Serializable {
 
 	
 	private Main main;
@@ -26,6 +32,25 @@ public class Fornite<T> {
 		
 	}
 
+	public Hashtable load() throws  ClassNotFoundException, FileNotFoundException, IOException
+	{
+		ObjectInputStream in = new ObjectInputStream(new FileInputStream(new File("files/principal.dat")));
+		Hashtable ms = (Hashtable)in.readObject();
+		in.close();
+		return ms;
+	}
+	
+	
+	public void save() throws FileNotFoundException, IOException
+	{
+		System.out.println("Fortnite ");
+		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(new File("files/principal.dat")));
+		out.writeObject(hashTable);
+		out.close();
+	}
+	
+	
+	
 	public String getNextWeapon(int q) {
 		weaponsQueue.dequeue();
 		String urlImage = (String) weaponsQueue.last();
