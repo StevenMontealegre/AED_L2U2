@@ -25,7 +25,7 @@ public class MainMenuController {
 	private void req1() throws IOException
 	{
 		
-		main.showHashTableView();
+		main.showWaitingView();
 	}
 	@FXML
 	private void req2() throws IOException

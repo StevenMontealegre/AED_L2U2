@@ -1,6 +1,9 @@
 package model;
 
 import java.util.ArrayList;
+
+import view.Main;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,15 +12,18 @@ import java.io.IOException;
 
 public class Fornite<T> {
 
+	
+	private Main main;
 	private Stack stack;
 	private Queue<String> weaponsQueue;
 	private Hashtable hashTable;
 	private Ping ping;
 
-	public Fornite() {
+	public Fornite(Main main) {
+		this.main = main;
 		hashTable = new Hashtable();
 		ping = new Ping();
-
+		
 	}
 
 	public String getNextWeapon(int q) {
@@ -60,6 +66,7 @@ public class Fornite<T> {
 
 	}
 
+
 	public String catchWeapon() {
 		String weapon = weaponsQueue.dequeue();
 		stack.push(new Weapon(weapon));
@@ -99,7 +106,12 @@ public class Fornite<T> {
 		}
 	}
 
+
 	public void newGame() {
+		
+
+		System.out.println("NEW GAME");
+		
 		File archivo = null;
 		FileReader fr = null;
 		BufferedReader br = null;
@@ -121,8 +133,8 @@ public class Fornite<T> {
 				Player p = new Player(player, region);
 				ping.connect(ping.giveIpForRegion(region));
 				s.setPlayer(p);
-				hashTable.hash(score);
-				hashTable.insert(s);
+				//hashTable.hash(score);
+				hashTable.insert2(s);
 
 			}
 
@@ -139,11 +151,19 @@ public class Fornite<T> {
 				e2.printStackTrace();
 			}
 		}
-
+		
+		System.out.println("FINISHED");
 	}
-
+	
+	
+	public ArrayList<String> getScores(int slot)
+	{
+		
+		return hashTable.getScores(slot);
+	}
+	
+	
 	// look for a Score entered by parameter
-
 	public Score findingPlayer(Score s) {
 
 		int key = hashTable.hash(s.getValue());

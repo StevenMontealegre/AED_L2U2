@@ -1,6 +1,8 @@
 package view;
 
 import java.io.IOException;
+import java.util.ArrayList;
+
 import model.Fornite;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -32,7 +34,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) throws IOException, InterruptedException {
 		
-		fortnite = new Fornite();
+		fortnite = new Fornite(this);
 		this.primaryStage = primaryStage;
 		this.primaryStage.setTitle("Fornite Improvements");
 		showMainView();
@@ -62,12 +64,23 @@ public class Main extends Application {
 	}
 	
 
+	public static void showWaitingView() throws IOException
+	{
+		FXMLLoader loader = new FXMLLoader();
+		loader.setLocation(Main.class.getResource("WaitingView.fxml"));
+		AnchorPane menu = loader.load();
+		mainLayout.setCenter(menu);
+		}
+		
 	public static void showHashTableView() throws IOException
 	{
+		
+
 		FXMLLoader loader = new FXMLLoader();
 		loader.setLocation(Main.class.getResource("HashTableView.fxml"));
 		AnchorPane menu = loader.load();
 		mainLayout.setCenter(menu);
+		fortnite.newGame();
 	}
 	
 	
@@ -102,7 +115,10 @@ public class Main extends Application {
 	}
 	
 	
-	
+	public static ArrayList<String> getScores(int slot)
+	{
+		return fortnite.getScores(slot);
+	}
 	
 	public static String[] useWeapon()
 	{

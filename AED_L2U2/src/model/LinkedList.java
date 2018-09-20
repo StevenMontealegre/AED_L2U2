@@ -1,5 +1,7 @@
 package model;
 
+import java.util.ArrayList;
+
 // This is a alternative data structure to counteract collisions
 public class LinkedList {
 
@@ -44,6 +46,27 @@ public class LinkedList {
 
 	}
 
+	public ArrayList<Score> getScores()
+	{
+		Score actual = first;
+		ArrayList<Score> list = new ArrayList<Score>();
+		if( first == null)
+		{
+			return null;
+		}
+		else 
+		{
+			while(actual != null)
+			{
+				list.add(actual);
+				actual = actual.getNext();
+			}
+			return list;
+		}
+		
+	}
+	
+	
 	public Score getFirst() {
 		return first;
 	}

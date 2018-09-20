@@ -1,13 +1,19 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Hashtable {
 	public final static Integer size = 199;
 	private Score[] table;
 	private int numElements;
 	private int collisionsNumber;
 
+	private LinkedList table2[];
+	
+	
+	
 	public Hashtable() {
-		// TODO Auto-generated constructor stub
+		table2 = new LinkedList[size];
 		setTable(new Score[size]);
 		setNumElements(0);
 		setCollisionsNumber(0);
@@ -25,6 +31,25 @@ public class Hashtable {
 	}
 	// Insert a value in the linkedlist when a collision is ocurred
 
+	
+	//JHAJHAASGVEDHD 
+	public void insert2(Score s)
+	{
+		Integer value = s.getValue();
+		Integer key = hash(value);
+		if(table2[key] == null)
+		{
+			System.out.println(key+"");
+			table2[key] = new LinkedList();
+			table2[key].setFirst(s);
+		}
+		else 
+		{
+			table2[key].addElement(s);
+		}
+	}
+	
+	
 	public void insert(Score s) {
 		Integer value = s.getValue();
 		Integer hash = hash(value);
@@ -81,6 +106,18 @@ public class Hashtable {
 
 	public void setCollisionsNumber(int collisionsNumber) {
 		this.collisionsNumber = collisionsNumber;
+	}
+	
+	public ArrayList<String> getScores(int slot)
+	{
+		ArrayList<String> scores = new ArrayList<>();
+		Score actual = table2[slot].getFirst();
+		while(actual!= null)
+		{
+			scores.add(actual.toString() +"");
+			actual = actual.getNext();
+		}
+		return scores;
 	}
 
 }
