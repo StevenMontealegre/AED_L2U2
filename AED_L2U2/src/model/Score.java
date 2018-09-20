@@ -50,6 +50,6 @@ public class Score {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "(" + player.getNickname() + ", " + value + ")";
+		return "(" + player + ", " + value + ")";
 	}
 }
