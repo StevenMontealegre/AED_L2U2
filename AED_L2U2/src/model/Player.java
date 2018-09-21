@@ -8,13 +8,15 @@ public class Player implements Serializable {
 	Player siguiente;
 	String region;
 	Ping ping;
+	String plataform;
 
-	public Player(String nickname, String region) {
+	public Player(String nickname, String region, String plataform) {
 		super();
 		this.nickname = nickname;
 		this.region = region;
 		siguiente = null;
 		ping = new Ping();
+		this.plataform = plataform;
 	}
 
 	public String getNickname() {
@@ -39,6 +41,22 @@ public class Player implements Serializable {
 
 	public void setRegion(String region) {
 		this.region = region;
+	}
+
+	public Ping getPing() {
+		return ping;
+	}
+
+	public void setPing(Ping ping) {
+		this.ping = ping;
+	}
+
+	public String getPlataform() {
+		return plataform;
+	}
+
+	public void setPlataform(String plataform) {
+		this.plataform = plataform;
 	}
 
 	@Override
